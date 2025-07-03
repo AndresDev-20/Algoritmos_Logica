@@ -36,12 +36,26 @@ Este proyecto tiene como propósito:
 **Yeison Andrés Marroquín Bernal**  
 Alias: **Andres.dev**  
 💼 Desarrollador **Full-Stack** con experiencia en:  
-- Frontend: React, Angular, HTML5, CSS3, Tailwind  
-- Backend: Node.js, Express, Spring Boot  
-- Bases de datos: MySQL, PostgreSQL, MongoDB  
-- Otras herramientas: Git, GitHub, Figma, Postman  
-📬 Contacto: andres.dev@ejemplo.com  
-🔗 GitHub: [github.com/Andres-dev](https://github.com/Andres-dev)  
+### 🧩 Backend Development
+- JavaScript, TypeScript
+- Node.js, Express.js
+- Python, FastAPI, Django
+- Java, Spring
+- MongoDB
+
+### 🎨 Frontend Development
+- HTML, CSS
+- React, Redux
+- Bootstrap, Tailwind
+
+### 🧰 Herramientas y Bases de Datos
+- Git, GitHub
+- NPM
+- Figma, Postman
+- MySQL, PostgreSQL, SQLite, SQL
+
+📬 Sitio web: [Andres.dev](https://portafolio-andres-dev.netlify.app/  )
+🔗 GitHub: [github.com/AndresDev-20](https://github.com/AndresDev-20)  
 
 ## 🏁 Cómo Empezar  
 1. Clona el repositorio:  
