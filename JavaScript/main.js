@@ -16,3 +16,11 @@ console.log(TwoSum([2, 7, 11, 15], 90)); // null
 
 
 // Segundo ejercicio
+// Crea una funcion que verifique si un numero es palindromo con true o false
+function isPalindrome(num) {
+    const str = num.toString();
+    const reversedStr = str.split('').reverse().join('');
+    return str === reversedStr;
+}
+console.log(isPalindrome(121)); // true
+console.log(isPalindrome(123)); // false
