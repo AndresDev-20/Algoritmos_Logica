@@ -24,3 +24,7 @@ function isPalindrome(num) {
 }
 console.log(isPalindrome(121)); // true
 console.log(isPalindrome(123)); // false
+
+
+
+// Tercer ejercicio
