@@ -28,4 +28,4 @@ console.log(isPalindrome(123)); // false
 
 
 // Tercer ejercicio
-//Ehercicio desafiante
+//Ejercicio desafiante
