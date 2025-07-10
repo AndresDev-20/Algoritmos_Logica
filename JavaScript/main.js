@@ -28,4 +28,18 @@ console.log(isPalindrome(123)); // false
 
 
 // Tercer ejercicio
-//Ejercicio desafiante
+
+function longestCommonPrefix(strs) {
+    let prefix = strs[0];
+	for(let i = 0; i < strs.length; i++){
+		const res1 = strs[i]
+		while(res1.indexOf(prefix) !== 0 ){
+			prefix = prefix.slice(0, -1);
+			if(prefix === "") return "";
+		}
+	}
+
+	return prefix;
+};
+console.log(longestCommonPrefix(["flower","flow","flight"])); // "fl"
+console.log(longestCommonPrefix(["dog","racecar","car"])); // ""    
