@@ -68,3 +68,7 @@ function fizzBuzz() {
         }
     }
 }
+
+function name() {
+    fizzBuzz();
+}
