@@ -17,3 +17,10 @@ function IsAnagram(w1, w2) {
 }
 
 console.log(IsAnagram("Amor", "Roma"))
+
+// Crea una funcion que sume dos numeros
+function suma(n1, n2){
+    const result = n1 * n2;
+    return result;
+}
+console.log(suma(44, 77))
