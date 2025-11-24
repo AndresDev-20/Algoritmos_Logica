@@ -53,5 +53,7 @@ suma(44, 66)
  # - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
  # - Imprime el cálculo del área de un polígono de cada tipo.
  
-def polygon_area():
-    
+def polygon_area(poligono):
+    print(0)
+
+polygon_area()
