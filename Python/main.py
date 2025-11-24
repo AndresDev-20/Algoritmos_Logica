@@ -53,9 +53,18 @@ suma(44, 66)
  # - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
  # - Imprime el cálculo del área de un polígono de cada tipo.
  
-def polygon_area(poligono, base, altura):
+def polygon_area(poligono):
     match poligono:
         case "TRIANGULO":
+            base = input("Ingresa la base: ")
+            altura = input("Ingresa la altura")
             print((base * altura)  / 2)
+        case "CUADRADO":
+            lado = input("Ingresa la medida: ")
+            print(lado * 4)
+        case "RECTANGULO":
+            base = input("Ingresa la base: ")
+            altura = input("Ingresa la altura")
+            print(base * altura)
 
 polygon_area()
