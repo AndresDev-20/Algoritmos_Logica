@@ -56,15 +56,15 @@ suma(44, 66)
 def polygon_area(poligono):
     match poligono:
         case "TRIANGULO":
-            base = input("Ingresa la base: ")
-            altura = input("Ingresa la altura")
+            base = int(input("Ingresa la base: "))
+            altura = int(input("Ingresa la altura"))
             print((base * altura)  / 2)
         case "CUADRADO":
-            lado = input("Ingresa la medida: ")
+            lado = int(input("Ingresa la medida: "))
             print(lado * 4)
         case "RECTANGULO":
-            base = input("Ingresa la base: ")
-            altura = input("Ingresa la altura")
+            base = int(input("Ingresa la base: "))
+            altura = int(input("Ingresa la altura"))
             print(base * altura)
 
-polygon_area()
+polygon_area("CUADRADO")
