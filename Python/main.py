@@ -67,4 +67,16 @@ def polygon_area(poligono):
             altura = int(input("Ingresa la altura"))
             print(base * altura)
 
-polygon_area("CUADRADO")
+#polygon_area("CUADRADO")
+
+
+
+ # Crea un programa que invierta el orden de una cadena de texto
+ # sin usar funciones propias del lenguaje que lo hagan de forma automática.
+ # - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+
+def reverce_string(cadena):
+    res = cadena[::-1]
+    print(res)
+
+reverce_string("Andres")
