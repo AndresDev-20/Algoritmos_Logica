@@ -25,6 +25,17 @@ public class Main {
              */
             final String name = "Andres.dev";
             System.out.println(name);
+            byte edad = 25;
+            short cantidad = 1000;
+            int poblacion = 500000;
+            long distancia = 1200000L;
+            float precio = 19.99f;
+            double pi = 3.14159265359;
+            char letra = 'A';
+            boolean verdadero = true;
+            boolean falso = false;
+            
+
         }
 
     }
