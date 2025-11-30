@@ -8,6 +8,8 @@ public class Main {
 
     // Funciones
     // primer ejercicio
-
+    public boolean isValid(String s) {
+        return true;
+    }
 
 }
