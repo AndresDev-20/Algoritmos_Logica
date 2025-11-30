@@ -6,4 +6,8 @@ public class Main {
         //PRIMER EJERCICIO:
     }
 
+    // Funciones
+    // primer ejercicio
+
+
 }
