@@ -9,7 +9,7 @@ public class Main {
 
     // Funciones
     // primer ejercicio
-    public boolean isValid(String s) {
+    public static boolean isValid(String s) {
         return true;
     }
 
