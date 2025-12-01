@@ -76,16 +76,39 @@ function name() {
 
 
 /*
- * Crea una función que calcule y retorne cuántos días hay entre dos cadenas
- * de texto que representen fechas.
- * - Una cadena de texto que representa una fecha tiene el formato "dd/MM/yyyy".
- * - La función recibirá dos String y retornará un Int.
- * - La diferencia en días será absoluta (no importa el orden de las fechas).
- * - Si una de las dos cadenas de texto no representa una fecha correcta se
- *   lanzará una excepción.
- */
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
+determine if the input string is valid.
+An input string is valid if:
 
-function calcularDiasEntreFechas() {
-    const regex = /^\d{2}\/\d{2}\/\d{4}$/;
-    
+1- Open brackets must be closed by the same type of brackets.
+2- Open brackets must be closed in the correct order.
+3- Every close bracket has a corresponding open bracket of the same type.
+
+Example 1:
+Input: s = "()"
+Output: true
+
+Example 2:
+Input: s = "()[]{}"
+Output: true
+
+Example 3:
+Input: s = "(]"
+Output: false
+
+Example 4:
+Input: s = "([])"
+Output: true
+
+Example 5:
+Input: s = "([)]"
+Output: false
+*/
+
+function Solution(s){
+    const arr = s.split("")
+    for(let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+    }
 }
+Solution("[](){}")
