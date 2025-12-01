@@ -10,8 +10,8 @@ function TwoSum(nums, target) {
     }
     return null
 }
-console.log(TwoSum([2, 7, 11, 15], 9)); // [0, 1]
-console.log(TwoSum([2, 7, 11, 15], 90)); // null
+//console.log(TwoSum([2, 7, 11, 15], 9)); // [0, 1]
+//console.log(TwoSum([2, 7, 11, 15], 90)); // null
 
 
 
@@ -22,8 +22,8 @@ function isPalindrome(num) {
     const reversedStr = str.split('').reverse().join('');
     return str === reversedStr;
 }
-console.log(isPalindrome(121)); // true
-console.log(isPalindrome(123)); // false
+//console.log(isPalindrome(121)); // true
+//console.log(isPalindrome(123)); // false
 
 
 
@@ -41,8 +41,8 @@ function longestCommonPrefix(strs) {
 
 	return prefix;
 };
-console.log(longestCommonPrefix(["flower","flow","flight"])); // "fl"
-console.log(longestCommonPrefix(["dog","racecar","car"])); // ""    
+//console.log(longestCommonPrefix(["flower","flow","flight"])); // "fl"
+//console.log(longestCommonPrefix(["dog","racecar","car"])); // ""    
 
 
 
@@ -69,9 +69,9 @@ function fizzBuzz() {
     }
 }
 
-function name() {
+/*function name() {
     fizzBuzz();
-}
+}*/
 
 
 
@@ -105,10 +105,32 @@ Input: s = "([)]"
 Output: false
 */
 
-function Solution(s){
-    const arr = s.split("")
-    for(let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
+function isValid(s) {
+    const stack = [];
+    const pairs = {
+        ')': '(',
+        ']': '[',
+        '}': '{'
+    };
+
+    for (let char of s) {
+        // Si es un cierre
+        if (pairs[char]) {
+            const top = stack.pop();
+            if (top !== pairs[char]) {
+                return false;
+            }
+        } else {
+            // Si es apertura
+            stack.push(char);
+        }
     }
+
+    return stack.length === 0;
 }
-Solution("[](){}")
+
+console.log(isValid("()"));        // true
+console.log(isValid("()[]{}"));    // true
+console.log(isValid("(]"));        // false
+console.log(isValid("([])"));      // true
+console.log(isValid("([)]"));      // false
