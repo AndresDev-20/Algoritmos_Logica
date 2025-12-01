@@ -10,10 +10,7 @@ public class Main {
     // Funciones
     // primer ejercicio
     public static boolean isValid(String s) {
-        if (true) {
-            return true;
-        }
-        return false;
+        
     }
 
 }
