@@ -12,7 +12,9 @@ public class Main {
     // Funciones
     // primer ejercicio
     public static boolean isValid(String s) {
-        var str = new ArrayList();
+        ArrayList<String> str = new ArrayList();
+        str.add(s);
+        System.out.println(str);
         return true;
     }
 
