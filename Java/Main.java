@@ -14,7 +14,9 @@ public class Main {
     public static boolean isValid(String s) {
         ArrayList<String> str = new ArrayList();
         str.add(s);
-        System.out.println(str);
+        for (String element : str) {
+            System.out.println(element);
+        }
         return true;
     }
 
