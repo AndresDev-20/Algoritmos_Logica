@@ -8,11 +8,11 @@ public class Main {
         // Dada una lista/arreglo de números, devuelve cuántos son pares.
         // Ejemplo: [1,2,4,7] → 2
         int[] array = {2,5,6,7};
-        for (int i = 0; i > array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
-                System.out.println(array[i]);
+                System.out.println("1" + array[i]);
             } else {
-                System.out.println(array[i]);
+                System.out.println("2" + array[i]);
             }
         }
     }
