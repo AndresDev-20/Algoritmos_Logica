@@ -13,12 +13,9 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
                 pares.add(array[i]);
-                System.out.println("1: " + array[i]);
-            } else {
-                System.out.println("2: " + array[i]);
             }
         }
-        System.out.print(pares);
+        System.out.print(pares.size());
     }
 
     // Funciones
