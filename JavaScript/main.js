@@ -84,6 +84,7 @@ function ParesCount(array) {
             pares ++;
         }
     }
+    return pares;
 }
 
 console.log(ParesCount([1,2,3,4,5,6]))
