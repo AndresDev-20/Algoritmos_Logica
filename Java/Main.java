@@ -24,5 +24,8 @@ public class Main {
     }
 
     // Funciones
-    
+    public static boolean isPalindrome() {
+        return true;
+    }
+
 }
