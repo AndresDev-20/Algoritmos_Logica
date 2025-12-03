@@ -79,7 +79,9 @@ function name() {
 // - Ejemplo: [1,2,4,7] → 2
 function ParesCount(array) {
     let pares = 0;
-    for
+    for(let i = 0; i < array.length; i++) {
+        
+    }
 }
 
 console.log(ParesCount([1,2,3,4,5,6]))
