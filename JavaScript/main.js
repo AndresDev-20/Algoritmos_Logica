@@ -10,8 +10,8 @@ function TwoSum(nums, target) {
     }
     return null
 }
-//console.log(TwoSum([2, 7, 11, 15], 9)); // [0, 1]
-//console.log(TwoSum([2, 7, 11, 15], 90)); // null
+console.log(TwoSum([2, 7, 11, 15], 9)); // [0, 1]
+console.log(TwoSum([2, 7, 11, 15], 90)); // null
 
 
 
@@ -22,8 +22,8 @@ function isPalindrome(num) {
     const reversedStr = str.split('').reverse().join('');
     return str === reversedStr;
 }
-//console.log(isPalindrome(121)); // true
-//console.log(isPalindrome(123)); // false
+console.log(isPalindrome(121)); // true
+console.log(isPalindrome(123)); // false
 
 
 
@@ -41,8 +41,8 @@ function longestCommonPrefix(strs) {
 
 	return prefix;
 };
-//console.log(longestCommonPrefix(["flower","flow","flight"])); // "fl"
-//console.log(longestCommonPrefix(["dog","racecar","car"])); // ""    
+console.log(longestCommonPrefix(["flower","flow","flight"])); // "fl"
+console.log(longestCommonPrefix(["dog","racecar","car"])); // ""    
 
 
 
@@ -69,67 +69,11 @@ function fizzBuzz() {
     }
 }
 
-/*function name() {
+function name() {
     fizzBuzz();
-}*/
-
-
-
-/*
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
-determine if the input string is valid.
-An input string is valid if:
-
-1- Open brackets must be closed by the same type of brackets.
-2- Open brackets must be closed in the correct order.
-3- Every close bracket has a corresponding open bracket of the same type.
-
-Example 1:
-Input: s = "()"
-Output: true
-
-Example 2:
-Input: s = "()[]{}"
-Output: true
-
-Example 3:
-Input: s = "(]"
-Output: false
-
-Example 4:
-Input: s = "([])"
-Output: true
-
-Example 5:
-Input: s = "([)]"
-Output: false
-*/
-
-function isValid(s) {
-    const stack = [];
-    const pairs = {
-        ')': '(',
-        ']': '[',
-        '}': '{'
-    };
-
-    for (let char of s) {
-        // Si es un cierre
-        if (pairs[char]) {
-            const top = stack.pop();
-            if (top !== pairs[char]) {
-                return false;
-            }
-        } else {
-            // Si es apertura
-            stack.push(char);
-        }
-    }
-
-    return stack.length === 0;
 }
-console.log(isValid("()"));        // true
-console.log(isValid("()[]{}"));    // true
-console.log(isValid("(]"));        // false
-console.log(isValid("([])"));      // true
-console.log(isValid("([)]"));      // false
+
+
+// 1. Contar cuántos números pares hay en una lista
+// Dada una lista/arreglo de números, devuelve cuántos son pares.
+// - Ejemplo: [1,2,4,7] → 2

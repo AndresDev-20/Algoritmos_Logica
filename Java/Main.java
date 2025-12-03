@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         //1. Contar cuántos números pares hay en una lista
         // Dada una lista/arreglo de números, devuelve cuántos son pares.
-        // Ejemplo: [1,2,4,7] → 2
+        // - Ejemplo: [1,2,4,7] → 2
         int[] array = {2,3,5,6,8};
         ArrayList<Integer> pares = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {
@@ -16,6 +16,11 @@ public class Main {
             }
         }
         System.out.print(pares.size());
+
+        //2. Verificar si una palabra es palíndromo
+        // Una palabra es palíndromo si se lee igual al revés.
+        // - Ejemplo: "oso" → true, "hola" → false
+        
     }
 
     // Funciones
