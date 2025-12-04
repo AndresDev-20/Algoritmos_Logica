@@ -22,7 +22,7 @@ public class Main {
         //2. Verificar si una palabra es palíndromo
         // Una palabra es palíndromo si se lee igual al revés.
         // - Ejemplo: "oso" → true, "hola" → false
-        System.out.println(isPalindrome("Oso", "Oso"));
+        System.out.println(isPalindrome("SOo", "Oso"));
         
     }
 
