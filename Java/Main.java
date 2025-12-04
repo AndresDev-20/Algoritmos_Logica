@@ -24,7 +24,8 @@ public class Main {
     }
 
     // Funciones
-    public static boolean isPalindrome() {
+    public static boolean isPalindrome(String wordOne, String wordTwo) {
+        
         return true;
     }
 
