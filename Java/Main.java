@@ -22,18 +22,20 @@ public class Main {
         //2. Verificar si una palabra es palíndromo
         // Una palabra es palíndromo si se lee igual al revés.
         // - Ejemplo: "oso" → true, "hola" → false
-        isPalindrome("Oso", "Oso");
+        System.out.println(isPalindrome("Oso", "Oso"));
         
     }
 
     // Funciones
     public static boolean isPalindrome(String wordOne, String wordTwo) {
+        if (wordOne == wordTwo){
+            return false;
+        }
         String[] caracteres = wordOne.split("");
-        String[] caracteres2 = wordTwo.split("");
-        if (caracteres == caracteres2) return false;
+        String[] caracterestwo = wordTwo.split("");
         Arrays.sort(caracteres);
-        Arrays.sort(caracteres2);
-        System.out.println(Arrays.toString(caracteres2));
+        Arrays.sort(caracterestwo);
+        System.out.println(Arrays.toString(caracterestwo));
         return true;
     }
 
