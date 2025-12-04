@@ -1,7 +1,6 @@
 package Java;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Main {
 
@@ -22,23 +21,15 @@ public class Main {
         //2. Verificar si una palabra es palíndromo
         // Una palabra es palíndromo si se lee igual al revés.
         // - Ejemplo: "oso" → true, "hola" → false
-        System.out.println(isPalindrome("Sso", "Oso"));
+        System.out.println(isPalindrome("sOo", "Oso"));
         
     }
 
     // Funciones
-    public static boolean isPalindrome(String wordOne, String wordTwo) {
-        if (wordOne == wordTwo){
-            return false;
-        }
-        String[] caracteres = wordOne.split("");
-        String[] caracterestwo = wordTwo.split("");
-        Arrays.sort(caracteres);
-        Arrays.sort(caracterestwo);
-        if (caracteres == caracterestwo) {
-            return true;
-        }
-        return false;
+    public static boolean isPalindrome(String w, String wTwo) {
+        var wordOne = w.toLowerCase();
+        String wordReversed = new StringBuilder(wordOne).reverse().toString();
+        return wordOne.equals(wordReversed);
     }
 
 }
