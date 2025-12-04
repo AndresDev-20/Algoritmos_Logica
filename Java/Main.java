@@ -35,7 +35,9 @@ public class Main {
         String[] caracterestwo = wordTwo.split("");
         Arrays.sort(caracteres);
         Arrays.sort(caracterestwo);
-        System.out.println(Arrays.toString(caracterestwo));
+        if (caracteres == caracterestwo) {
+            return true;
+        }
         return true;
     }
 
