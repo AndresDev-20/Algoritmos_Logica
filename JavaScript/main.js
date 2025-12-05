@@ -76,8 +76,10 @@ console.log(ParesCount([1,2,3,4,5,6]))
 // Sumar solo los números positivos
 // Te dan una lista. Debes sumar únicamente los números mayores a 0.
 // Ejemplo: [1, -2, 5, -9, 3] → 1 + 5 + 3 = 9
-function addNumbersPositive() {
-
+function addNumbersPositive(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        
+    }
 }
 
 console.log(addNumbersPositive([1, -2, 5, -9, 3]));
