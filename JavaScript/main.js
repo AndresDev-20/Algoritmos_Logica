@@ -1,4 +1,4 @@
-// Primer ejercicio
+// 1)
 // Crea una funcion que encuentre los indices de los dos numero que sumen un numero concreto
 function TwoSum(nums, target) {
     for(let i = 0; i < nums.length; i++) {
@@ -15,7 +15,7 @@ console.log(TwoSum([2, 7, 11, 15], 90)); // null
 
 
 
-// Segundo ejercicio
+// 2) 
 // Crea una funcion que verifique si un numero es palindromo con true o false
 function isPalindrome(num) {
     const str = num.toString();
@@ -27,33 +27,14 @@ console.log(isPalindrome(123)); // false
 
 
 
-// Tercer ejercicio
 
-function longestCommonPrefix(strs) {
-    let prefix = strs[0];
-	for(let i = 0; i < strs.length; i++){
-		const res1 = strs[i]
-		while(res1.indexOf(prefix) !== 0 ){
-			prefix = prefix.slice(0, -1);
-			if(prefix === "") return "";
-		}
-	}
-
-	return prefix;
-};
-console.log(longestCommonPrefix(["flower","flow","flight"])); // "fl"
-console.log(longestCommonPrefix(["dog","racecar","car"])); // ""    
-
-
-
-/*
-Escribe un programa que muestre por consola (con un print) los
- * números de 1 a 100 (ambos incluidos y con un salto de línea entre
- * cada impresión), sustituyendo los siguientes:
- * - Múltiplos de 3 por la palabra "fizz".
- * - Múltiplos de 5 por la palabra "buzz".
- * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
- */
+// 3) 
+//Escribe un programa que muestre por consola (con un print) los
+ // * números de 1 a 100 (ambos incluidos y con un salto de línea entre
+ // * cada impresión), sustituyendo los siguientes:
+ // * - Múltiplos de 3 por la palabra "fizz".
+ // * - Múltiplos de 5 por la palabra "buzz".
+ // * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 
 function fizzBuzz() {
     for (let i = 1; i <= 100; i++) {
@@ -74,8 +55,9 @@ function name() {
 }
 
 
-// 1. Contar cuántos números pares hay en una lista
-// Dada una lista/arreglo de números, devuelve cuántos son pares.
+// 4)
+// Contar cuántos números pares hay en una lista. Dada una lista/arreglo de números, 
+// devuelve cuántos son pares.
 // - Ejemplo: [1,2,4,7] → 2
 function ParesCount(array) {
     let pares = 0;
