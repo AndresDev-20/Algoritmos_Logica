@@ -1,4 +1,4 @@
-// 1)
+// 1)---------------------------------------------------------------------------------------
 // Crea una funcion que encuentre los indices de los dos numero que sumen un numero concreto
 function TwoSum(nums, target) {
     for(let i = 0; i < nums.length; i++) {
@@ -15,7 +15,7 @@ console.log(TwoSum([2, 7, 11, 15], 90)); // null
 
 
 
-// 2) 
+// 2)---------------------------------------------------------------------------------------
 // Crea una funcion que verifique si un numero es palindromo con true o false
 function isPalindrome(num) {
     const str = num.toString();
@@ -28,7 +28,7 @@ console.log(isPalindrome(123)); // false
 
 
 
-// 3) 
+// 3)---------------------------------------------------------------------------------------
 //Escribe un programa que muestre por consola (con un print) los
  // * números de 1 a 100 (ambos incluidos y con un salto de línea entre
  // * cada impresión), sustituyendo los siguientes:
@@ -55,7 +55,7 @@ function name() {
 }
 
 
-// 4)
+// 4)---------------------------------------------------------------------------------------
 // Contar cuántos números pares hay en una lista. Dada una lista/arreglo de números, 
 // devuelve cuántos son pares.
 // - Ejemplo: [1,2,4,7] → 2
@@ -70,3 +70,12 @@ function ParesCount(array) {
 }
 
 console.log(ParesCount([1,2,3,4,5,6]))
+
+
+// 5)---------------------------------------------------------------------------------------
+// Sumar solo los números positivos
+// Te dan una lista. Debes sumar únicamente los números mayores a 0.
+// Ejemplo: [1, -2, 5, -9, 3] → 1 + 5 + 3 = 9
+function addNumbersPositive() {
+    
+}
