@@ -82,7 +82,7 @@ function addNumbersPositive(arr) {
         if(arr[i] > 0) {
             sum = sum + arr[i];
         } else {
-            return "Not number positive"
+            return "There are no positive numbers"
         }
     }
     return sum;
