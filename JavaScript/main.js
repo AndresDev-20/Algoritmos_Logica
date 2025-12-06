@@ -100,6 +100,6 @@ let ar = [];
 let num;
 for(let i = 0; i < list.length; i++) {
     ar.push(list[i])
-    console.log(num = num + list[i]);
+    console.log(list[i]);
 }
 console.log(num);
