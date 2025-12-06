@@ -96,8 +96,14 @@ console.log(addNumbersPositive([1, -2, 5, -9, 3]));
 // Nada de max().
 // Solo comparaciones y lógica.
 const list = [2, 5, 4, 7, 9, 50];
+let ar = [];
 let num;
 for(let i = 0; i < list.length; i++) {
-    if()
+    ar.push(list[i])
+    if(ar > list[i]) {
+        console.log(false);
+    }
+    
     
 }
+console.log(ar);
