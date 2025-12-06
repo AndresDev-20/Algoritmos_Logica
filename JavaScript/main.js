@@ -89,3 +89,15 @@ function addNumbersPositive(arr) {
 }
 
 console.log(addNumbersPositive([1, -2, 5, -9, 3]));
+
+
+// 6)---------------------------------------------------------------------------------------
+// Encontrar el número mayor sin usar funciones prehechas
+// Nada de max().
+// Solo comparaciones y lógica.
+const list = [2, 5, 4, 7, 9, 50];
+let num;
+for(let i = 0; i < list.length; i++) {
+    if()
+    
+}
