@@ -104,3 +104,11 @@ for(let i = 0; i < list.length; i++) {
 }
 console.log(ar);
 
+
+// 7)---------------------------------------------------------------------------------------
+// Devolver cuántas vocales tiene una frase
+// Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
+// Ejemplo: "Hola Mundo" → 4
+function searchVocals(text) {
+
+}
