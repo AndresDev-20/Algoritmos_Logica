@@ -100,10 +100,6 @@ let ar = [];
 let num;
 for(let i = 0; i < list.length; i++) {
     ar.push(list[i])
-    if(ar > list[i]) {
-        console.log(false);
-    }
-    
-    
+    console.log(num = num + list[i]);
 }
-console.log(ar);
+console.log(num);
