@@ -95,11 +95,12 @@ console.log(addNumbersPositive([1, -2, 5, -9, 3]));
 // Encontrar el número mayor sin usar funciones prehechas
 // Nada de max().
 // Solo comparaciones y lógica.
-const list = [2, 5, 4, 7, 9, 50];
-let ar = [];
-let num;
+const list = [2, 5, 4, 70, 9, 50];
+let ar = list[0];
 for(let i = 0; i < list.length; i++) {
-    ar.push(list[i])
-    console.log(list[i]);
+    if(list[i] > ar){
+        ar = list[i]
+    }
 }
-console.log(num); 
+console.log(ar);
+
