@@ -111,6 +111,6 @@ console.log(ar);
 // Ejemplo: "Hola Mundo" → 4
 function searchVocals(text) {
     const vocals = "aeiouAEIOU";
-
+    
 }
 console.log(searchVocals("El perro y el gato estan peleando"));
