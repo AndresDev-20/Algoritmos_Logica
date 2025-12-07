@@ -110,6 +110,6 @@ console.log(ar);
 // Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
 // Ejemplo: "Hola Mundo" → 4
 function searchVocals(text) {
-
+    const vocals = "aeiou";
 }
 console.log();
