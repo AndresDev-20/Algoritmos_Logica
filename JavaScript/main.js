@@ -112,11 +112,14 @@ console.log(ar);
 function searchVocals(text) {
     const vocals = "aeiouAEIOU";
     const arr = text.split('');
-    arr.filter((e, i) => {
-        console.log(e == vocals[i]);
-        
-    })
-    console.log(arr);
+    let count = 0;
+    for(let i = 0; i < arr.length; i++) {
+        console.log(vocals[i], arr[i]);
+        if (vocals.includes(arr[i])) {
+            count++;
+        }
+    }
+    return "res: " + count;
     
 }
 console.log(searchVocals("El perro y el gato estan peleando"));
