@@ -112,6 +112,10 @@ console.log(ar);
 function searchVocals(text) {
     const vocals = "aeiouAEIOU";
     const arr = text.split('');
+    arr.filter(e => {
+        console.log(e, vocals);
+        
+    })
     console.log(arr);
     
 }
