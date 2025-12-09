@@ -129,3 +129,7 @@ console.log(searchVocals("El perro y el gato estan peleando"));
 // Ejemplo:
 // [-3, 5, -1, 0, 10, -7] → 3.
 
+function countNegative() {
+
+}
+console.log();
