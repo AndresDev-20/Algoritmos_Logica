@@ -81,8 +81,6 @@ function addNumbersPositive(arr) {
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] > 0) {
             sum = sum + arr[i];
-        } else {
-            return "There are no positive numbers"
         }
     }
     return sum;
@@ -114,12 +112,12 @@ function searchVocals(text) {
     const arr = text.split('');
     let count = 0;
     for(let i = 0; i < arr.length; i++) {
-        console.log(vocals[i], arr[i]);
+        console.log(vocals.includes(arr[i]));
         if (vocals.includes(arr[i])) {
             count++;
         }
     }
-    return "res: " + count;
+    return count;
     
 }
 console.log(searchVocals("El perro y el gato estan peleando"));
