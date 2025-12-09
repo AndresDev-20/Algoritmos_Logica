@@ -132,4 +132,4 @@ console.log(searchVocals("El perro y el gato estan peleando"));
 function countNegative() {
 
 }
-console.log();
+console.log(countNegative([-3, 5, -1, 0, 10, -7]));
