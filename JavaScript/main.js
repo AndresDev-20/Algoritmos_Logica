@@ -121,3 +121,6 @@ function searchVocals(text) {
     
 }
 console.log(searchVocals("El perro y el gato estan peleando"));
+
+
+// 8)---------------------------------------------------------------------------------------
