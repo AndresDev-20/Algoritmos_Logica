@@ -148,8 +148,12 @@ console.log(countNegative([-3, 5, -1, 0, 10, -7]));
 // [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
 
 function sumImpar(arr){
+    let res = 0;
     for(let i = 0; i < arr.length; i++){
-        
+        if(arr[i] % 2 === 1){
+            res = res + arr[i];
+        }
     }
+    return res;
 }
-console.log(sumImpar(arr([1, 2, 3, 4, 5])));
+console.log(sumImpar([1, 2, 3, 4, 5]));
