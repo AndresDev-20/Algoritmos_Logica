@@ -130,10 +130,12 @@ console.log(searchVocals("El perro y el gato estan peleando"));
 // [-3, 5, -1, 0, 10, -7] → 3.
 
 function countNegative(array) {
-    let count = 0;
-    for(let i = 0; i < array.length(); i++){
+    let count;
+    for(let i = 0; i < array.length; i++){
         if(array[i] < 0) {
-            count++;
+            count ++;
+            console.log("res: " + array[i]);
+            
         }
         return count;
     }
