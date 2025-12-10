@@ -136,6 +136,6 @@ function countNegative(array) {
             count ++;
         }
     }
-    return count
+    return count;
 }
 console.log(countNegative([-3, 5, -1, 0, 10, -7]));
