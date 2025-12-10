@@ -139,3 +139,10 @@ function countNegative(array) {
     return count;
 }
 console.log(countNegative([-3, 5, -1, 0, 10, -7]));
+
+
+// 9)--------------------------------------------------------------------------------------
+// Sumar solo los impares
+// Dado un arreglo de números, suma únicamente los números impares.
+// Ejemplo:
+// [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
