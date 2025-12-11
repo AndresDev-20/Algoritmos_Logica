@@ -166,9 +166,13 @@ console.log(sumImpar([1, 2, 3, 4, 5]));
 // Texto: "programacion"
 // Carácter: "o"
 // Resultado → 2.
-function countChar(text){
+function countChar(text, char){
+    let res = 0;
     for (const element of text) {
-        console.log(element);
+        if(element === char){
+            res++;
+        }
     }
+    return res;
 }
-console.log(countChar("programacion"));
+console.log(countChar("programacion", "o"));
