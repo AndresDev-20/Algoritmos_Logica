@@ -169,7 +169,6 @@ console.log(sumImpar([1, 2, 3, 4, 5]));
 function countChar(text){
     for (const element of text) {
         console.log(element);
-        
     }
 }
 console.log(countChar("programacion"));
