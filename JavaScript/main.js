@@ -157,3 +157,13 @@ function sumImpar(arr){
     return res;
 }
 console.log(sumImpar([1, 2, 3, 4, 5]));
+
+
+// 9)---------------------------------------------------------------------------------------
+// Contar cuántas veces aparece un carácter
+// Dado un texto y un carácter, devuelve cuántas veces aparece ese carácter exactamente.
+// Ejemplo:
+// Texto: "programacion"
+// Carácter: "o"
+// Resultado → 2.
+
