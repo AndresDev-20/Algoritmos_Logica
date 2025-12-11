@@ -169,4 +169,4 @@ console.log(sumImpar([1, 2, 3, 4, 5]));
 function countChar(){
 
 }
-console.log();
+console.log(countChar("programacion"));
