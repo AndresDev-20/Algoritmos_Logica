@@ -185,3 +185,4 @@ console.log(countChar("programacion", "o"));
 // Ejemplo:
 // "Hola" → "HOLA".
 // (Pista: A → Z = 65 a 90, a → z = 97 a 122).
+function
