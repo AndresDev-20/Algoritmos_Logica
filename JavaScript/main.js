@@ -186,5 +186,6 @@ console.log(countChar("programacion", "o"));
 // "Hola" → "HOLA".
 // (Pista: A → Z = 65 a 90, a → z = 97 a 122).
 function mayusText() {
+    let abecedario = [];
     
 }
