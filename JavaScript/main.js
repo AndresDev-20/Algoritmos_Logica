@@ -112,7 +112,6 @@ function searchVocals(text) {
     const arr = text.split('');
     let count = 0;
     for(let i = 0; i < arr.length; i++) {
-        console.log(vocals.includes(arr[i]));
         if (vocals.includes(arr[i])) {
             count++;
         }
@@ -187,10 +186,19 @@ console.log(countChar("programacion", "o"));
 // (Pista: A → Z = 65 a 90, a → z = 97 a 122).
 function mayusText(text) {
     let abecedario = [];
+    let abecedario2 = [];
     for(let i = 65; i <= 90; i++){
         abecedario.push(String.fromCharCode(i))
     }
-    console.log(abecedario);
+    for(let i = 97; i <= 122; i++){
+        abecedario2.push(String.fromCharCode(i))
+    }
+    for(let i = 0; i < abecedario2.length; i++){
+        if(text.includes(abecedario2[i])){
+        console.log("i: " + i);
+        }
+    }
+    console.log(abecedario, abecedario2);
 
 }
-console.log(mayusText());
+console.log(mayusText("Hola"));
