@@ -176,3 +176,15 @@ function countChar(text, char){
     return res;
 }
 console.log(countChar("programacion", "o"));
+
+
+// 10---------------------------------------------------------------------------------------
+// Convertir una cadena a mayúsculas sin usar .toUpperCase()
+
+Debes convertir todas las letras a mayúsculas usando solo lógica (comparaciones, ASCII, condiciones).
+No puedes usar .toUpperCase() ni .toLowerCase().
+
+Ejemplo:
+"Hola" → "HOLA".
+
+(Pista: A → Z = 65 a 90, a → z = 97 a 122).
