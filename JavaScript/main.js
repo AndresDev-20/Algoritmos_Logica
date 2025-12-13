@@ -185,20 +185,21 @@ console.log(countChar("programacion", "o"));
 // "Hola" → "HOLA".
 // (Pista: A → Z = 65 a 90, a → z = 97 a 122).
 function mayusText(text) {
-    let abecedario = [];
-    let abecedario2 = [];
-    for(let i = 65; i <= 90; i++){
-        abecedario.push(String.fromCharCode(i))
-    }
-    for(let i = 97; i <= 122; i++){
-        abecedario2.push(String.fromCharCode(i))
-    }
-    for(let i = 0; i < abecedario2.length; i++){
-        if(text.includes(abecedario2[i])){
-        console.log("i: " + i);
+    let result = "";
+
+    for (let i = 0; i < text.length; i++) {
+        let code = text.charCodeAt(i);
+
+        // si es minúscula (a–z)
+        if (code >= 97 && code <= 122) {
+            result += String.fromCharCode(code - 32);
+        } else {
+            result += text[i];
         }
     }
-    console.log(abecedario, abecedario2);
 
+    return result;
 }
+
 console.log(mayusText("Hola"));
+
