@@ -214,3 +214,4 @@ console.log(mayusText("Hola"));
 function countLength(str){
 
 }
+console.log(countLength("El perro corre"));
