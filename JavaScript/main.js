@@ -212,7 +212,7 @@ console.log(mayusText("Hola"));
 // → "El" (2) + "perro" (5) + "corre" (5) = 12.
 
 function countLength(str){
-    let res = str.split("")
-    return res;
+    let res = str.replaceAll(" ", "");
+    return res.length;
 }
 console.log(countLength("El perro corre"));
