@@ -12,7 +12,7 @@ print(two_sum([2, 7, 11, 15], 90))  # None
 
 
 
-# Segundo ejercicio
+# 2)---------------------------------------------------------------------------------------
 # Crea una funcion que verifique si un numero es palindromo con true o false
 def is_palindrome(num):
     s = str(num)
