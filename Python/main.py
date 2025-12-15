@@ -80,3 +80,9 @@ def reverce_string(cadena):
     print(res)
 
 reverce_string("Andres")
+
+
+# 6)----------------------------------------------------------------------------------------
+# Contar cuántos números pares hay en una lista. Dada una lista/arreglo de números, 
+# devuelve cuántos son pares.
+# - Ejemplo: [1,2,4,7] → 2
