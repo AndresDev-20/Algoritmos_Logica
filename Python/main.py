@@ -87,6 +87,8 @@ reverce_string("Andres")
 # devuelve cuántos son pares.
 # - Ejemplo: [1,2,4,7] → 2
 def count_positive(nums):
+    res = 0;
     for num in nums:
-        if num % 2 
+        if num % 2 == 0:
+
 print(count_positive([1, 2, 4, 7]))
