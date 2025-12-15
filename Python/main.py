@@ -89,7 +89,7 @@ reverce_string("Andres")
 def count_positive(nums):
     res = 0;
     for num in nums:
-        print(num)
+        print(num % 2 == 0)
         if num % 2 == 0:
             res + 1
     return res;
