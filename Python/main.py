@@ -86,3 +86,7 @@ reverce_string("Andres")
 # Contar cuántos números pares hay en una lista. Dada una lista/arreglo de números, 
 # devuelve cuántos son pares.
 # - Ejemplo: [1,2,4,7] → 2
+def count_positive(nums):
+    for num in nums:
+        if num % 2 
+print(count_positive([1, 2, 4, 7]))
