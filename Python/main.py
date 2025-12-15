@@ -44,17 +44,8 @@ def fizz_buzz():
 def name():
     fizz_buzz()
 
-# You can call the 'name' function to run fizz_buzz:
-# name()
 
-# Crea una funcion que sume dos numeros
-def suma(n1, n2):
-    print(n1 + n2)
-
-suma(44, 66)
-
-
-
+# 4)----------------------------------------------------------------------------------------
  # Crea una única función (importante que sólo sea una) que sea capaz
  # de calcular y retornar el área de un polígono.
  # - La función recibirá por parámetro sólo UN polígono a la vez.
@@ -75,7 +66,7 @@ def polygon_area(poligono):
             altura = int(input("Ingresa la altura"))
             print(base * altura)
 
-#polygon_area("CUADRADO")
+polygon_area("CUADRADO")
 
 
 
