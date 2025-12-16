@@ -108,3 +108,9 @@ def positive_sum(nums):
     return res;
 
 print(positive_sum([1, -2, 5, -9, 3]))
+
+
+# 6)---------------------------------------------------------------------------------------
+# Encontrar el número mayor sin usar funciones prehechas
+# Nada de max().
+# Solo comparaciones y lógica.
