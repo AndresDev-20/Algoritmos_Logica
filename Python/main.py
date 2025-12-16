@@ -90,7 +90,7 @@ def count_positive(nums):
     res = 0;
     for num in nums:
         if num % 2 == 0:
-            res += 1
+            res += 1;
     return res;
 
 print(count_positive([1, 2, 4, 7]))
@@ -103,5 +103,8 @@ print(count_positive([1, 2, 4, 7]))
 def positive_sum(nums):
     res = 0;
     for num in nums:
+        if num > 0:
+            res = res + num;
+    return res;
 
 print(positive_sum([1, -2, 5, -9, 3]))
