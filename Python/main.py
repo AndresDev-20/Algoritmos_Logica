@@ -97,3 +97,6 @@ print(count_positive([1, 2, 4, 7]))
 
 
 # 7)----------------------------------------------------------------------------------------
+# Sumar solo los números positivos
+# Te dan una lista. Debes sumar únicamente los números mayores a 0.
+# Ejemplo: [1, -2, 5, -9, 3] → 1 + 5 + 3 = 9
