@@ -101,5 +101,6 @@ print(count_positive([1, 2, 4, 7]))
 # Te dan una lista. Debes sumar únicamente los números mayores a 0.
 # Ejemplo: [1, -2, 5, -9, 3] → 1 + 5 + 3 = 9
 def positive_sum(nums):
-
+    for num in nums:
+        
 print(positive_sum([1, -2, 5, -9, 3]))
