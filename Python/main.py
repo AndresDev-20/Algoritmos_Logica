@@ -119,6 +119,7 @@ n = nums[0]
 for num in nums:
     if(num > n):
         n = num;
+
 print(n)
 
 
@@ -135,6 +136,7 @@ def count_vocals(text):
             res += 1
 
     return res
+
 print(count_vocals(text))
 
 
@@ -150,4 +152,21 @@ def count_negative(arr):
         if num < 0:
             count += 1
     return count
+
 print(count_negative(nums))
+
+
+# 9)--------------------------------------------------------------------------------------
+# Sumar solo los impares
+# Dado un arreglo de números, suma únicamente los números impares.
+# Ejemplo:
+# [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
+nums = [1, 2, 3, 4, 5]
+def sum_impars(arr):
+    res = 0;
+    for num in arr:
+        if num % 2 == 1:
+            res = res + num
+    return res
+
+print(sum_impars(nums))
