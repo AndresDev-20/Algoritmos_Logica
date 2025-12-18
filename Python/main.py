@@ -120,3 +120,19 @@ for num in nums:
     if(num > n):
         n = num;
 print(n)
+
+
+# 7)---------------------------------------------------------------------------------------
+# Devolver cuántas vocales tiene una frase
+# Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
+# Ejemplo: "Hola Mundo" → 4
+text = "Hola Mundo"
+def count_vocals(text):
+    vocals = "aeiouAEIOU"
+    res = 0;
+    for vocal in vocals:
+        for char in text:
+            if (vocal == char):
+                res += 1
+    return res
+print(count_vocals(text))
