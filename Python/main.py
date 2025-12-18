@@ -130,10 +130,16 @@ text = "Hola Mundo"
 def count_vocals(text):
     vocals = "aeiouAEIOU"
     res = 0
-
     for char in text:
         if char in vocals:
             res += 1
 
     return res
 print(count_vocals(text))
+
+
+# 8)---------------------------------------------------------------------------------------
+# Contar cuántos números negativos hay
+# Dado un arreglo de números, devuelve cuántos son negativos.
+# Ejemplo:
+# [-3, 5, -1, 0, 10, -7] → 3.
