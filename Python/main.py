@@ -129,10 +129,11 @@ print(n)
 text = "Hola Mundo"
 def count_vocals(text):
     vocals = "aeiouAEIOU"
-    res = 0;
-    for vocal in vocals:
-        for char in text:
-            if (vocal == char):
-                res += 1
+    res = 0
+
+    for char in text:
+        if char in vocals:
+            res += 1
+
     return res
 print(count_vocals(text))
