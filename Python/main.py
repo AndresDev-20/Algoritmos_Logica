@@ -143,3 +143,11 @@ print(count_vocals(text))
 # Dado un arreglo de números, devuelve cuántos son negativos.
 # Ejemplo:
 # [-3, 5, -1, 0, 10, -7] → 3.
+nums = [-3, 5, -1, 0, 10, -7]
+def count_negative(arr):
+    count = 0
+    for num in arr:
+        if num < 0:
+            count += 1
+    return count
+print(count_negative(nums))
