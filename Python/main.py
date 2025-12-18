@@ -114,3 +114,9 @@ print(positive_sum([1, -2, 5, -9, 3]))
 # Encontrar el número mayor sin usar funciones prehechas
 # Nada de max().
 # Solo comparaciones y lógica.
+nums = [2, 4, 6, 12, 11, 5];
+n = nums[0]
+for num in nums:
+    if(num > n):
+        n = num;
+print(n)

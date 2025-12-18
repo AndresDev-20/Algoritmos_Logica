@@ -210,9 +210,31 @@ console.log(mayusText("Hola"));
 // Ejemplo:
 // "El perro corre"
 // → "El" (2) + "perro" (5) + "corre" (5) = 12.
-
 function countLength(str){
     let res = str.replaceAll(" ", "");
     return res.length;
 }
 console.log(countLength("El perro corre"));
+
+
+// 12)---------------------------------------------------------------------------------------
+// Contar cuántos números son mayores que un valor
+// Dado un arreglo de números y un número x, devuelve cuántos elementos del
+// arreglo son mayores que x.
+// Ejemplo:
+// Lista: [2, 5, 10, 3, 8]
+// x = 4
+// Resultado → 3 (5, 10, 8)
+const nums = [2, 5, 10, 2, 8];
+let num = 4;
+
+function numElderly(ns, n){
+    let res = 0;
+    for(let i = 0; i < ns.length; i++) {
+        if(ns[i] > n) {
+            res++;
+        }
+    }
+    return res;
+}
+console.log(numElderly(nums, num));
