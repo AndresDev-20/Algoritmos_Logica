@@ -10,7 +10,11 @@ public class Main {
         // Dada una lista/arreglo de números, devuelve cuántos son pares.
         // - Ejemplo: [1,2,4,7] → 2
         ArrayList numList = new ArrayList<Integer>();
-        
+        numList.add(1);
+        numList.add(2);
+        numList.add(4);
+        numList.add(7);
+        System.out.println(numList);
 
 
         // 2)------------------------------------------------------------------------------------------
