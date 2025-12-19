@@ -170,3 +170,21 @@ def sum_impars(arr):
     return res
 
 print(sum_impars(nums))
+
+
+# 10)---------------------------------------------------------------------------------------
+# Contar cuántas veces aparece un carácter
+# Dado un texto y un carácter, devuelve cuántas veces aparece ese carácter exactamente.
+# Ejemplo:
+# Texto: "programacion"
+# Carácter: "o"
+# Resultado → 2.
+text = "programacion"
+char = "o"
+def count_char(text, char):
+    res = 0;
+    for t in text:
+        if t == char:
+
+
+print(count_char(text, char))
