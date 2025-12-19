@@ -182,7 +182,7 @@ print(sum_impars(nums))
 text = "programacion"
 char = "o"
 def count_char(text, char):
-    res = 0;
+    res = 0
     for t in text:
         if t == char:
             res +=1
