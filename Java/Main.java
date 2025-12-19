@@ -1,5 +1,7 @@
 package Java;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class Main {
         // Contar cuántos números pares hay en una lista
         // Dada una lista/arreglo de números, devuelve cuántos son pares.
         // - Ejemplo: [1,2,4,7] → 2
+        ArrayList numList = new ArrayList<Integer>();
         
 
 
@@ -19,7 +22,7 @@ public class Main {
 
     // Funciones
    // 1)----------------------------------------------------------------------------------------------
-   public static int searchPars(){
+   public static int searchPars(ArrayList numList){
     return 0;
    }
 
