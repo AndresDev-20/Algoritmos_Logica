@@ -185,6 +185,7 @@ def count_char(text, char):
     res = 0;
     for t in text:
         if t == char:
-
+            res +=1
+    return res
 
 print(count_char(text, char))
