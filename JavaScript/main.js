@@ -158,7 +158,7 @@ function sumImpar(arr){
 console.log(sumImpar([1, 2, 3, 4, 5]));
 
 
-// 9)---------------------------------------------------------------------------------------
+// 10)---------------------------------------------------------------------------------------
 // Contar cuántas veces aparece un carácter
 // Dado un texto y un carácter, devuelve cuántas veces aparece ese carácter exactamente.
 // Ejemplo:
@@ -177,7 +177,7 @@ function countChar(text, char){
 console.log(countChar("programacion", "o"));
 
 
-// 10---------------------------------------------------------------------------------------
+// 11)---------------------------------------------------------------------------------------
 // Convertir una cadena a mayúsculas sin usar .toUpperCase()
 // Debes convertir todas las letras a mayúsculas usando solo lógica (comparaciones, ASCII, condiciones).
 // No puedes usar .toUpperCase() ni .toLowerCase().
@@ -204,7 +204,7 @@ function mayusText(text) {
 console.log(mayusText("Hola"));
 
 
-// 11---------------------------------------------------------------------------------------
+// 12)---------------------------------------------------------------------------------------
 // Obtener la suma total de las longitudes de todas las palabras
 // Dado un texto, cuenta cuántas letras tiene en total, ignorando espacios.
 // Ejemplo:
@@ -217,7 +217,7 @@ function countLength(str){
 console.log(countLength("El perro corre"));
 
 
-// 12)---------------------------------------------------------------------------------------
+// 13)---------------------------------------------------------------------------------------
 // Contar cuántos números son mayores que un valor
 // Dado un arreglo de números y un número x, devuelve cuántos elementos del
 // arreglo son mayores que x.
