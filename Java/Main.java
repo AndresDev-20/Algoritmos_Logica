@@ -16,12 +16,23 @@ public class Main {
         numList.add(7);
         System.out.println(searchPars(numList));
 
+
         // 2)------------------------------------------------------------------------------------------
         // Verificar si una palabra es palíndromo
         // Una palabra es palíndromo si se lee igual al revés.
         // - Ejemplo: "oso" → true, "hola" → false
         String word = "oso";
         System.out.println(isPalindrome(word));
+
+
+        // 3)---------------------------------------------------------------------------------------
+        //Escribe un programa que muestre por consola (con un print) los
+        // números de 1 a 100 (ambos incluidos y con un salto de línea entre
+        // cada impresión), sustituyendo los siguientes:
+        // - Múltiplos de 3 por la palabra "fizz".
+        // - Múltiplos de 5 por la palabra "buzz".
+        // - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
+        
         
     }
 
