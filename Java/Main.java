@@ -40,7 +40,9 @@ public class Main {
 
    // 2)----------------------------------------------------------------------------------------------
    public static String isPalindrome(String word){
-    for 
+    for (String e : word) {
+        System.out.println(e);
+    }
     return "";
    }
 
