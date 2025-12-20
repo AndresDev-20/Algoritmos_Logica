@@ -1,6 +1,7 @@
 package Java;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -40,9 +41,9 @@ public class Main {
 
    // 2)----------------------------------------------------------------------------------------------
    public static String isPalindrome(String word){
-    for (String e : word) {
-        System.out.println(e);
-    }
+    StringBuilder sb = new StringBuilder(word);
+    sb.reverse();
+    
     return "";
    }
 
