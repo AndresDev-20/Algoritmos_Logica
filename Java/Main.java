@@ -33,7 +33,7 @@ public class Main {
         // - Múltiplos de 5 por la palabra "buzz".
         // - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
         
-        
+
     }
 
     // Funciones
@@ -57,6 +57,14 @@ public class Main {
         return "Es palindorme";
     }
     return "No es palindrome";
+   }
+
+
+   // 3)----------------------------------------------------------------------------------------------
+   public static void fizzBuzz(int num) {
+    for (int i = 1; i <= 100; i++) {
+        System.out.println(i);
+    }
    }
 
 }
