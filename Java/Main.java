@@ -45,7 +45,7 @@ public class Main {
     if (word.equals(sb.toString())){
         return "Es palindorme";
     }
-    return "";
+    return "No es palindrome";
    }
 
 }
