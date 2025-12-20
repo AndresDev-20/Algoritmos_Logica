@@ -40,7 +40,7 @@ public class Main {
 
    // 2)----------------------------------------------------------------------------------------------
    public static String isPalindrome(String word){
-    
+    for 
     return "";
    }
 
