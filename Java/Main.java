@@ -32,7 +32,7 @@ public class Main {
         // - Múltiplos de 3 por la palabra "fizz".
         // - Múltiplos de 5 por la palabra "buzz".
         // - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
-        
+        fizzBuzz(100);
 
     }
 
@@ -63,7 +63,15 @@ public class Main {
    // 3)----------------------------------------------------------------------------------------------
    public static void fizzBuzz(int num) {
     for (int i = 1; i <= 100; i++) {
-        System.out.println(i);
+        if (i % 3 == 0 && i % 5 == 0 ){
+            System.out.println("fizzbuzz");
+        } else if (i % 3 == 0) {
+            System.out.println("fizz");
+        } else if (i % 5 == 0) {
+            System.out.println("buzz");
+        } else {
+            System.out.println(i);
+        }
     }
    }
 
