@@ -45,6 +45,13 @@ public class Main {
         nums.add(4);
         nums.add(7);
         System.out.println(parsNums(nums));
+
+
+        // 5)---------------------------------------------------------------------------------------
+        // Sumar solo los números positivos
+        // Te dan una lista. Debes sumar únicamente los números mayores a 0.
+        // Ejemplo: [1, -2, 5, -9, 3] → 1 + 5 + 3 = 9
+        ArrayList<Integer> numss = new ArrayList<>();
     }
 
     // Funciones
@@ -97,4 +104,5 @@ public class Main {
     }
     return res;
    }
+
 }
