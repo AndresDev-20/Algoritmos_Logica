@@ -52,6 +52,12 @@ public class Main {
         // Te dan una lista. Debes sumar únicamente los números mayores a 0.
         // Ejemplo: [1, -2, 5, -9, 3] → 1 + 5 + 3 = 9
         ArrayList<Integer> numss = new ArrayList<>();
+        numss.add(1);
+        numss.add(-2);
+        numss.add(5);
+        numss.add(-9);
+        numss.add(3);
+        System.out.println(numss);
     }
 
     // Funciones
@@ -106,5 +112,7 @@ public class Main {
    }
 
 
+   // 5)----------------------------------------------------------------------------------------------
    
+
 }
