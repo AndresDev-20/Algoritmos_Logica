@@ -39,7 +39,11 @@ public class Main {
         // Contar cuántos números pares hay en una lista. Dada una lista/arreglo de números, 
         // devuelve cuántos son pares.
         // - Ejemplo: [1,2,4,7] → 2
-
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(1);
+        nums.add(2);
+        nums.add(4);
+        nums.add(7);
     }
 
     // Funciones
