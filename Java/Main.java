@@ -44,6 +44,7 @@ public class Main {
         nums.add(2);
         nums.add(4);
         nums.add(7);
+        System.out.println(parsNums(nums));
     }
 
     // Funciones
@@ -87,7 +88,13 @@ public class Main {
 
 
    // 4)----------------------------------------------------------------------------------------------
-   public static int parsNums() {
-    return 0;
+   public static int parsNums(ArrayList<Integer> nums) {
+     int res = 0;
+    for(int i = 0; i < nums.size(); i++){
+        if (nums.get(i) % 2 == 0) {
+            res++;
+        }
+    }
+    return res;
    }
 }
