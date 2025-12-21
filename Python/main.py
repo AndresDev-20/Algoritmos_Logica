@@ -189,3 +189,11 @@ def count_char(text, char):
     return res
 
 print(count_char(text, char))
+
+
+# 11)---------------------------------------------------------------------------------------
+# Convertir una cadena a mayúsculas sin usar .toUpperCase()
+# Debes convertir todas las letras a mayúsculas usando solo lógica (comparaciones, ASCII, condiciones).
+# No puedes usar .toUpperCase() ni .toLowerCase().
+# Ejemplo:
+# "Hola" → "HOLA".
