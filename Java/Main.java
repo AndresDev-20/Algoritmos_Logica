@@ -34,6 +34,12 @@ public class Main {
         // - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
         fizzBuzz(100);
 
+        
+        // 4)---------------------------------------------------------------------------------------
+        // // Contar cuántos números pares hay en una lista. Dada una lista/arreglo de números, 
+        // // devuelve cuántos son pares.
+        // // - Ejemplo: [1,2,4,7] → 2
+
     }
 
     // Funciones
