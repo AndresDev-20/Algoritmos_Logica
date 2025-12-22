@@ -58,6 +58,12 @@ public class Main {
         numss.add(-9);
         numss.add(3);
         System.out.println(sumPositive(numss));
+
+
+        // 6)---------------------------------------------------------------------------------------
+        // Encontrar el número mayor sin usar funciones prehechas
+        // Nada de max().
+        // Solo comparaciones y lógica.
     }
 
     // Funciones
