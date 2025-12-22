@@ -116,7 +116,9 @@ public class Main {
     public static int sumPositive(ArrayList<Integer> nums) {
         int res = 0;
         for(int i = 0; i < nums.size(); i++){
-            if
+            if(nums.get(i) % 2 == 0){
+
+            }
         }
         return res;
     }
