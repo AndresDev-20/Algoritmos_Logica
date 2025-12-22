@@ -57,7 +57,7 @@ public class Main {
         numss.add(5);
         numss.add(-9);
         numss.add(3);
-        System.out.println(numss);
+        System.out.println(sumPositive(numss));
     }
 
     // Funciones
@@ -113,7 +113,7 @@ public class Main {
 
 
    // 5)----------------------------------------------------------------------------------------------
-    public static int sumPositive() {
+    public static int sumPositive(ArrayList<Integer> nums) {
         int res = 0;
         return res;
     }
