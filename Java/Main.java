@@ -113,6 +113,9 @@ public class Main {
 
 
    // 5)----------------------------------------------------------------------------------------------
-   
+    public static int sumPositive() {
+        int res = 0;
+        return res;
+    }
 
 }
