@@ -65,7 +65,7 @@ public class Main {
         // Nada de max().
         // Solo comparaciones y lógica.
         int[] n = {22, 3, 55, 64, 54};
-        
+        System.out.println(numMax(n));
     }
 
     // Funciones
@@ -132,7 +132,7 @@ public class Main {
     }
     
    // 6)----------------------------------------------------------------------------------------------
-    public static int numMax(ArrayList<Integer> nums){
+    public static int numMax(int[] nums){
         int res = 0;
         return res;
     }
