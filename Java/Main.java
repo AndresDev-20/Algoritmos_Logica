@@ -130,8 +130,9 @@ public class Main {
     }
     
    // 6)----------------------------------------------------------------------------------------------
-    public static int numMax(){
-        
+    public static int numMax(ArrayList<Integer> nums){
+        int res = 0;
+        return res;
     }
 
 }
