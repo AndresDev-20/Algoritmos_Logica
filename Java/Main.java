@@ -132,8 +132,9 @@ public class Main {
     }
     
    // 6)----------------------------------------------------------------------------------------------
-    public static int numMax(int[] nums){
-        int res = 0;
+    public static int[] numMax(int[] nums){
+        int[] res = {0};
+        
         return res;
     }
 
