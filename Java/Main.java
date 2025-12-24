@@ -73,7 +73,7 @@ public class Main {
         // Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
         // Ejemplo: "Hola Mundo" → 4
         String text = "Hello, my name is andres and i am 20 years";
-        System.out.println();
+        System.out.println(countVocals(text));
     }
 
     // Funciones
