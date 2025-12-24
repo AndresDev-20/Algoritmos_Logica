@@ -156,7 +156,9 @@ public class Main {
    public static int countVocals(String text){
     String vocals = "aeiouAEIOU";
     for(int i = 0; i < text.length(); i++){
-        
+        for(int j = 0; j < vocals.length(); i++){
+            System.out.println(text.charAt(i));
+        }
     }
     return 0;
    }
