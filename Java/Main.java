@@ -72,6 +72,8 @@ public class Main {
         // Devolver cuántas vocales tiene una frase
         // Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
         // Ejemplo: "Hola Mundo" → 4
+        String vocals = "aeiouAEIOU";
+        String text = "Hello, my name is andres and i am 20 years";
     }
 
     // Funciones
