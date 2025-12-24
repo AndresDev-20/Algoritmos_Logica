@@ -102,7 +102,7 @@ public class Main {
 
    // 3)----------------------------------------------------------------------------------------------
    public static void fizzBuzz(int num) {
-    for (int i = 1; i <= 100; i++) {
+    for (int i = 1; i <= num; i++) {
         if (i % 3 == 0 && i % 5 == 0 ){
             System.out.println("fizzbuzz");
         } else if (i % 3 == 0) {
