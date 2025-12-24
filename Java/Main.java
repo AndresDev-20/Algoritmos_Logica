@@ -72,8 +72,8 @@ public class Main {
         // Devolver cuántas vocales tiene una frase
         // Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
         // Ejemplo: "Hola Mundo" → 4
-        String vocals = "aeiouAEIOU";
         String text = "Hello, my name is andres and i am 20 years";
+        System.out.println();
     }
 
     // Funciones
@@ -139,6 +139,7 @@ public class Main {
         return res;
     }
     
+
    // 6)----------------------------------------------------------------------------------------------
     public static int numMax(int[] nums){
         int res = nums[0];
@@ -149,5 +150,12 @@ public class Main {
         }
         return res;
     }
+
+
+   // 7)----------------------------------------------------------------------------------------------
+   public static int countVocals(String text){
+    String vocals = "aeiouAEIOU";
+    return 0;
+   }
 
 }
