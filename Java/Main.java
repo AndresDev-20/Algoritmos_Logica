@@ -155,12 +155,15 @@ public class Main {
    // 7)----------------------------------------------------------------------------------------------
    public static int countVocals(String text){
     String vocals = "aeiouAEIOU";
+    int res = 0;
     for(int i = 0; i < text.length(); i++){
-        for(int j = 0; j < vocals.length(); i++){
-            System.out.println(text.charAt(i));
+        for(int j = 0; j < vocals.length(); j++){
+            if(text.charAt(i) == vocals.charAt(j)){
+                res++;
+            }
         }
     }
-    return 0;
+    return res;
    }
 
 }
