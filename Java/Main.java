@@ -66,6 +66,12 @@ public class Main {
         // Solo comparaciones y lógica.
         int[] n = {22, 3, 55, 64, 54};
         System.out.println(numMax(n));
+
+
+        // 7)---------------------------------------------------------------------------------------
+        // Devolver cuántas vocales tiene una frase
+        // Cuenta vocales: a, e, i, o, u (mayúsculas/minúsculas).
+        // Ejemplo: "Hola Mundo" → 4
     }
 
     // Funciones
