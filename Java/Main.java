@@ -74,6 +74,13 @@ public class Main {
         // Ejemplo: "Hola Mundo" → 4
         String text = "Hello, my name is andres and i am 20 years";
         System.out.println(countVocals(text));
+
+
+        // 8)---------------------------------------------------------------------------------------
+        // Contar cuántos números negativos hay
+        // Dado un arreglo de números, devuelve cuántos son negativos.
+        // Ejemplo:
+        // [-3, 5, -1, 0, 10, -7] → 3.
     }
 
     // Funciones
