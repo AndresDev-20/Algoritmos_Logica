@@ -81,6 +81,7 @@ public class Main {
         // Dado un arreglo de números, devuelve cuántos son negativos.
         // Ejemplo:
         // [-3, 5, -1, 0, 10, -7] → 3.
+        
     }
 
     // Funciones
