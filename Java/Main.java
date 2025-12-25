@@ -83,6 +83,13 @@ public class Main {
         // [-3, 5, -1, 0, 10, -7] → 3.
         int[] arr = {-3, 5, -1, 0, 10, -7};
         System.out.println(countNumsNegative(arr));
+
+
+        // 9)--------------------------------------------------------------------------------------
+        // Sumar solo los impares
+        // Dado un arreglo de números, suma únicamente los números impares.
+        // Ejemplo:
+        // [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
     }
 
     // Funciones
@@ -186,5 +193,5 @@ public class Main {
     }
     return res;
    }
-   
+
 }
