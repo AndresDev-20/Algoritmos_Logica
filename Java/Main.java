@@ -82,6 +82,7 @@ public class Main {
         // Ejemplo:
         // [-3, 5, -1, 0, 10, -7] → 3.
         int[] arr = {-3, 5, -1, 0, 10, -7};
+        System.out.println(countNumsNegative(arr));
     }
 
     // Funciones
