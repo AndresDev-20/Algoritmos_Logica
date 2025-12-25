@@ -81,7 +81,7 @@ public class Main {
         // Dado un arreglo de números, devuelve cuántos son negativos.
         // Ejemplo:
         // [-3, 5, -1, 0, 10, -7] → 3.
-        
+        int[] arr = {-3, 5, -1, 0, 10, -7};
     }
 
     // Funciones
@@ -174,4 +174,15 @@ public class Main {
     return res;
    }
 
+
+   // 8)----------------------------------------------------------------------------------------------
+   public static int countNumsNegative(int[] nums) {
+    int res = 0;
+    for(int i = 0; i < nums.length; i++) {
+        if(nums[i] < 0) {
+            
+        }
+    }
+    return res;
+   }
 }
