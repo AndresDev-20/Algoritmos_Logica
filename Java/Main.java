@@ -93,7 +93,7 @@ public class Main {
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println(sumImpars(numbers));
 
-        
+
         // 10)---------------------------------------------------------------------------------------
         // Contar cuántas veces aparece un carácter
         // Dado un texto y un carácter, devuelve cuántas veces aparece ese carácter exactamente.
@@ -101,7 +101,9 @@ public class Main {
         // Texto: "programacion"
         // Carácter: "o"
         // Resultado → 2.
-        
+        String t = "programacion";
+        String letter = "o";
+        System.out.println(countCharacter(t, letter));
     }
 
     // Funciones
@@ -218,4 +220,11 @@ public class Main {
     return res;
    }
 
+
+   // 10)---------------------------------------------------------------------------------------------
+   public static int countCharacter(String t, String letter){
+    int res = 0;
+
+    return res;
+   }
 }
