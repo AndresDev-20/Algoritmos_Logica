@@ -92,6 +92,15 @@ public class Main {
         // [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println(sumImpars(numbers));
+
+        
+        // 10)---------------------------------------------------------------------------------------
+        // Contar cuántas veces aparece un carácter
+        // Dado un texto y un carácter, devuelve cuántas veces aparece ese carácter exactamente.
+        // Ejemplo:
+        // Texto: "programacion"
+        // Carácter: "o"
+        // Resultado → 2.
         
     }
 
@@ -197,7 +206,7 @@ public class Main {
     return res;
    }
 
-   
+
    // 9)----------------------------------------------------------------------------------------------
    public static int sumImpars(int[] nums){
     int res = 0;
