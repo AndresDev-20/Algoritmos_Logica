@@ -90,6 +90,8 @@ public class Main {
         // Dado un arreglo de números, suma únicamente los números impares.
         // Ejemplo:
         // [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
+        int[] numbers = {1, 2, 3, 4, 5}
+        
     }
 
     // Funciones
@@ -195,5 +197,10 @@ public class Main {
    }
 
    // 9)----------------------------------------------------------------------------------------------
-   
+   public static int sumImpars(int[] nums){
+    int res = 0;
+
+    return res;
+   }
+
 }
