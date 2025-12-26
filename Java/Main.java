@@ -201,7 +201,7 @@ public class Main {
     int res = 0;
     for(int num : nums){
         if(num % 2 == 1) {
-            
+            res = res + num;
         }
     }
     return res;
