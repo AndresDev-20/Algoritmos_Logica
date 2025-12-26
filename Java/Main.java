@@ -90,7 +90,7 @@ public class Main {
         // Dado un arreglo de números, suma únicamente los números impares.
         // Ejemplo:
         // [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
-        int[] numbers = {1, 2, 3, 4, 5}
+        int[] numbers = {1, 2, 3, 4, 5};
         
     }
 
