@@ -199,7 +199,11 @@ public class Main {
    // 9)----------------------------------------------------------------------------------------------
    public static int sumImpars(int[] nums){
     int res = 0;
-
+    for(int num : nums){
+        if(num % 2 == 1) {
+            
+        }
+    }
     return res;
    }
 
