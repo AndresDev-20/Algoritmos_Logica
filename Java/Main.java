@@ -91,6 +91,7 @@ public class Main {
         // Ejemplo:
         // [1, 2, 3, 4, 5] → 1 + 3 + 5 = 9.
         int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println(sumImpars(numbers));
         
     }
 
