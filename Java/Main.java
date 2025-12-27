@@ -102,7 +102,7 @@ public class Main {
         // Carácter: "o"
         // Resultado → 2.
         String t = "programacion";
-        String letter = "o";
+        char letter = 'o';
         System.out.println(countCharacter(t, letter));
     }
 
@@ -222,10 +222,10 @@ public class Main {
 
 
    // 10)---------------------------------------------------------------------------------------------
-   public static int countCharacter(String t, String letter){
+   public static int countCharacter(String t, char letter){
     int res = 0;
     for(int i = 0; i < t.length(); i++){
-        System.out.println(t);
+        System.out.println(t.charAt(i) == letter);
     }
     return res;
    }
