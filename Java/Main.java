@@ -104,6 +104,16 @@ public class Main {
         String t = "programacion";
         char letter = 'o';
         System.out.println(countCharacter(t, letter));
+
+
+        // 11)---------------------------------------------------------------------------------------
+        // Convertir una cadena a mayúsculas sin usar .toUpperCase()
+        // Debes convertir todas las letras a mayúsculas usando solo lógica (comparaciones, ASCII, condiciones).
+        // No puedes usar .toUpperCase() ni .toLowerCase().
+        // Ejemplo:
+        // "Hola" → "HOLA".
+        // (Pista: A → Z = 65 a 90, a → z = 97 a 122).
+        
     }
 
     // Funciones
@@ -232,5 +242,5 @@ public class Main {
     return res;
    }
 
-   
+
 }
