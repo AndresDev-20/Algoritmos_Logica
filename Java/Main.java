@@ -224,10 +224,8 @@ public class Main {
    // 10)---------------------------------------------------------------------------------------------
    public static int countCharacter(String t, String letter){
     int res = 0;
-    for(int i = 0; i < t.length; i++){
-        if(t.charAt(i) == letter) {
-            
-        }
+    for(int i = 0; i < t.length(); i++){
+        System.out.println(letter.charAt(i));
     }
     return res;
    }
