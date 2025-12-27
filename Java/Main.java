@@ -225,7 +225,9 @@ public class Main {
    public static int countCharacter(String t, char letter){
     int res = 0;
     for(int i = 0; i < t.length(); i++){
-        System.out.println(t.charAt(i) == letter);
+        if(t.charAt(i) == letter){
+            res++;
+        }
     }
     return res;
    }
