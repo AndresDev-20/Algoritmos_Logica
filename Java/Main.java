@@ -245,7 +245,7 @@ public class Main {
 
    // 11)---------------------------------------------------------------------------------------------
    public static String convertMayus(String t){
-    for(int i = 0;)
+    for(int i = 0; i < t.length();)
     return "";
    }
 
