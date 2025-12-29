@@ -247,11 +247,15 @@ public class Main {
 
    // 11)---------------------------------------------------------------------------------------------
    public static String convertMayus(String t){
+    var result = "";
     for(int i = 0; i < t.length(); i++) {
         var code = t.charAt(i);
         System.out.println(code);
 
         // si es es minuscula (a-z)
+        if (code >= 97 && code <= 122) {
+            
+        }
     }
     return "";
    }
