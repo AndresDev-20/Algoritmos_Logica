@@ -250,6 +250,8 @@ public class Main {
     for(int i = 0; i < t.length(); i++) {
         var code = t.charAt(i);
         System.out.println(code);
+
+        // si es es minuscula (a-z)
     }
     return "";
    }
