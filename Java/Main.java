@@ -248,9 +248,8 @@ public class Main {
    // 11)---------------------------------------------------------------------------------------------
    public static String convertMayus(String t){
     for(int i = 0; i < t.length(); i++) {
-        System.out.println(t.charAt(i));
         var code = t.charAt(i);
-        Sy
+        System.out.println(code);
     }
     return "";
    }
