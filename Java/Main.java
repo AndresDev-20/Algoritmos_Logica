@@ -116,6 +116,14 @@ public class Main {
         String tex = "Hola";
         System.out.println(convertMayus(tex));
 
+
+        // 12)---------------------------------------------------------------------------------------
+        // Obtener la suma total de las longitudes de todas las palabras
+        // Dado un texto, cuenta cuántas letras tiene en total, ignorando espacios.
+        // Ejemplo:
+        // "El perro corre"
+        // → "El" (2) + "perro" (5) + "corre" (5) = 12.
+
     }
 
     // Funciones
