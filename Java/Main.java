@@ -258,7 +258,7 @@ public class Main {
             result = result + code;
         }
     }
-    return "";
+    return result;
    }
 
 }
