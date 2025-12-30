@@ -250,7 +250,6 @@ public class Main {
     var result = "";
     for(int i = 0; i < t.length(); i++) {
         var code = t.charAt(i);
-        System.out.println(code);
 
         // si es es minuscula (a-z)
         if (code >= 97 && code <= 122) {
