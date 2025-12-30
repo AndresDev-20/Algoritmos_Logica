@@ -255,6 +255,8 @@ public class Main {
         // si es es minuscula (a-z)
         if (code >= 97 && code <= 122) {
             result = result + (char) (code - 32);
+        } else {
+            result = result + code;
         }
     }
     return "";
