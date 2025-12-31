@@ -271,7 +271,7 @@ public class Main {
 
 
     // 12)---------------------------------------------------------------------------------------------
-    public static int sumLength() {
+    public static int sumLength(String text) {
         return 0;
     }
 }
