@@ -272,7 +272,8 @@ public class Main {
 
     // 12)---------------------------------------------------------------------------------------------
     public static int sumLength(String text) {
-        int res = 
+        int res = 0;
+        for(int i = 0;)
         return 0;
     }
 }
