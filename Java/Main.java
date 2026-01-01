@@ -123,6 +123,8 @@ public class Main {
         // Ejemplo:
         // "El perro corre"
         // → "El" (2) + "perro" (5) + "corre" (5) = 12.
+        var str = "Hello, my name is Andres";
+        System.out.println(sumLength(str));
 
     }
 
@@ -277,7 +279,7 @@ public class Main {
         for(int i = 0; i < text.length(); i++) {
             nums[i] = i;
         }
-        
+        System.out.println(nums);
         return 0;
     }
 }
