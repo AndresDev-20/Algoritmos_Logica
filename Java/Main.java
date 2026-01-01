@@ -1,6 +1,7 @@
 package Java;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -275,11 +276,11 @@ public class Main {
     // 12)---------------------------------------------------------------------------------------------
     public static int sumLength(String text) {
         int res = 0;
-        int[] nums = {};
+        int[] nums = new int[text.length()];
         for(int i = 0; i < text.length(); i++) {
             nums[i] = i;
         }
-        System.out.println(nums);
+        System.out.println(Arrays.toString(nums)); 
         return 0;
     }
 }
