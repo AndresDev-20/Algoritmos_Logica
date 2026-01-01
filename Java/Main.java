@@ -275,8 +275,9 @@ public class Main {
         int res = 0;
         int[] nums = {};
         for(int i = 0; i < text.length(); i++) {
-
+            nums[i] = i;
         }
+        
         return 0;
     }
 }
