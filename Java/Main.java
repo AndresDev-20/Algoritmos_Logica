@@ -279,9 +279,10 @@ public class Main {
         int[] nums = new int[text.length()];
         for(int i = 0; i < text.length(); i++) {
             nums[i] = i;
+            res = res + nums[i];
         }
         System.out.println(Arrays.toString(nums)); 
-        return 0;
+        return res;
     }
 }
 
