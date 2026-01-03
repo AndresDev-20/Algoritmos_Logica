@@ -136,6 +136,8 @@ public class Main {
         // Lista: [2, 5, 10, 3, 8]
         // x = 4
         // Resultado → 3 (5, 10, 8)
+        int[] ns = {2, 5, 10, 3, 8};
+        System.out.println(ns);
 
     }
 
