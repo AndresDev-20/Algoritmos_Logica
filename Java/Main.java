@@ -127,6 +127,16 @@ public class Main {
         var str = "Hello, my name is Andres";
         System.out.println(sumLength(str));
 
+
+        // 13)---------------------------------------------------------------------------------------
+        // Contar cuántos números son mayores que un valor
+        // Dado un arreglo de números y un número x, devuelve cuántos elementos del
+        // arreglo son mayores que x.
+        // Ejemplo:
+        // Lista: [2, 5, 10, 3, 8]
+        // x = 4
+        // Resultado → 3 (5, 10, 8)
+
     }
 
     // Funciones
@@ -273,8 +283,8 @@ public class Main {
    }
 
 
-    // 12)---------------------------------------------------------------------------------------------
-    public static int sumLength(String text) {
+   // 12)---------------------------------------------------------------------------------------------
+   public static int sumLength(String text) {
         int res = 0;
         int[] nums = new int[text.length()];
         for(int i = 0; i < text.length(); i++) {
@@ -283,7 +293,13 @@ public class Main {
         }
         System.out.println(Arrays.toString(nums)); 
         return res;
-    }
+   }
+
+
+   // 11)---------------------------------------------------------------------------------------------
+   pu
+
+
 }
 
 
