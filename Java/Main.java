@@ -297,8 +297,8 @@ public class Main {
 
 
    // 11)---------------------------------------------------------------------------------------------
-   public static int numElderly() {
-    
+   public static int numElderly(int[] nums) {
+    int[] res = new int[nums.length];
     return 0;
    }
 
