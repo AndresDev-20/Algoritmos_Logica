@@ -297,7 +297,9 @@ public class Main {
 
 
    // 11)---------------------------------------------------------------------------------------------
-   public static int numElderly()
+   public static int numElderly() {
+    
+   }
 
 
 }
