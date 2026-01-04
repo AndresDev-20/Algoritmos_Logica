@@ -197,3 +197,4 @@ print(count_char(text, char))
 # No puedes usar .toUpperCase() ni .toLowerCase().
 # Ejemplo:
 # "Hola" → "HOLA".
+text = "Hello, my name is andres.!"
