@@ -197,17 +197,20 @@ print(count_char(text, char))
 # No puedes usar .toUpperCase() ni .toLowerCase().
 # Ejemplo:
 # "Hola" → "HOLA".
-text = "Hello, my name is andres.!"
 def mayus_text(t):
     res = ""
 
     for letter in t:
-        code = letter
+        code = ord(letter)
 
-        # Si es minuscula
-        if code >= 97 & code <= 122:
-            res += str.FOR
-        else :
+        # si es minúscula (a-z)
+        if 97 <= code <= 122:
+            res += chr(code - 32)
+        else:
             res += letter
 
+    return res
+
+
+text = "Hello, my name is andres."
 print(mayus_text(text))
