@@ -201,4 +201,7 @@ text = "Hello, my name is andres.!"
 def mayus_text(t):
     res = ""
 
+    for letter in t:
+        print(letter)
+
 print(mayus_text(text))
