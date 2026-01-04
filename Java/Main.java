@@ -298,14 +298,17 @@ public class Main {
    }
 
 
-   // 11)---------------------------------------------------------------------------------------------
+   // 13)---------------------------------------------------------------------------------------------
    public static String numElderly(int[] nums, int num) {
-    int[] res = new int[nums.length];
+    int v = 1;
+    int[] res = new int[v];
     for (int i = 0; i < nums.length; i++) {
         if (nums[i] > num) {
             res[i] = nums[i];
+            v++;
         }
     }
+    System.out.println(v);
     return Arrays.toString(res);
    }
 
