@@ -202,6 +202,8 @@ def mayus_text(t):
     res = ""
 
     for letter in t:
-        print(letter)
+        code = letter
+
+        # Si es minuscula
 
 print(mayus_text(text))
