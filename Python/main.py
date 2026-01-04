@@ -205,5 +205,9 @@ def mayus_text(t):
         code = letter
 
         # Si es minuscula
+        if code >= 97 & code <= 122:
+            res += str.FOR
+        else :
+            res += letter
 
 print(mayus_text(text))
