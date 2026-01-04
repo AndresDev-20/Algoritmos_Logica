@@ -1,7 +1,6 @@
 package Java;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Main {
 
@@ -136,7 +135,12 @@ public class Main {
         // Lista: [2, 5, 10, 3, 8]
         // x = 4
         // Resultado → 3 (5, 10, 8)
-        int[] ns = {2, 5, 10, 3, 8};
+        ArrayList<Integer> ns = new ArrayList<>();
+        ns.add(2);
+        ns.add(5);
+        ns.add(10);
+        ns.add(3);
+        ns.add(8);
         int x  = 6;
         System.out.println(numElderly(ns, x));
 
@@ -299,17 +303,14 @@ public class Main {
 
 
    // 13)---------------------------------------------------------------------------------------------
-   public static String numElderly(int[] nums, int num) {
-    int v = 1;
+   public static ArrayList<Integer> numElderly(ArrayList<Integer> nums, int num) {
     ArrayList<Integer> res = new ArrayList<>();
-    for (int i = 0; i < nums.length; i++) {
-        if (nums[i] > num) {
-            res[i] = nums[i];
-            v++;
+    for (int i = 0; i < nums.size(); i++) {
+        if (nums.get(i) > num) {
+            res.add(nums.get(i));
         }
     }
-    System.out.println(v);
-    return Arrays.toString(res);
+    return res;
    }
 
 
