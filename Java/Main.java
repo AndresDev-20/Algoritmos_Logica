@@ -138,7 +138,7 @@ public class Main {
         // Resultado → 3 (5, 10, 8)
         int[] ns = {2, 5, 10, 3, 8};
         int x  = 6;
-        System.out.println(ns);
+        System.out.println(numElderly(ns, x));
 
     }
 
