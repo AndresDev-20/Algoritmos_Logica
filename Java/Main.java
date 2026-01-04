@@ -301,7 +301,7 @@ public class Main {
    // 13)---------------------------------------------------------------------------------------------
    public static String numElderly(int[] nums, int num) {
     int v = 1;
-    int[] res = new int[v];
+    ArrayList<Integer> res = new ArrayList<>();
     for (int i = 0; i < nums.length; i++) {
         if (nums[i] > num) {
             res[i] = nums[i];
