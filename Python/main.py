@@ -198,3 +198,7 @@ print(count_char(text, char))
 # Ejemplo:
 # "Hola" → "HOLA".
 text = "Hello, my name is andres.!"
+def mayus_text(t):
+    res = ""
+
+print(mayus_text(text))
