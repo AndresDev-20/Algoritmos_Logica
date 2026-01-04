@@ -294,20 +294,19 @@ public class Main {
             nums[i] = i;
             res = res + nums[i];
         }
-        System.out.println(Arrays.toString(nums)); 
         return res;
    }
 
 
    // 11)---------------------------------------------------------------------------------------------
-   public static int[] numElderly(int[] nums, int num) {
-    int[] res = {};
+   public static String numElderly(int[] nums, int num) {
+    int[] res = new int[nums.length];
     for (int i = 0; i < nums.length; i++) {
         if (nums[i] > num) {
-
+            res[i] = nums[i];
         }
     }
-    return res;
+    return Arrays.toString(res);
    }
 
 
