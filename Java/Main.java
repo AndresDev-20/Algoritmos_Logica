@@ -300,11 +300,11 @@ public class Main {
 
 
    // 11)---------------------------------------------------------------------------------------------
-   public static int numElderly(int[] nums, int num) {
+   public static int[] numElderly(int[] nums, int num) {
     int[] res = new int[nums.length];
     for (int i = 0; i < nums.length; i++) {
         if (nums[i] > num) {
-            
+
         }
     }
     return 0;
