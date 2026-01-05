@@ -224,11 +224,7 @@ print(mayus_text(text))
 # → "El" (2) + "perro" (5) + "corre" (5) = 12.
 text = "El perro corre"
 def count_len(t):
-    
-    new_text = t.replace(" ", "")
-    for i in range(len(new_text)):
-        lis.append(i)
-        lis = lis + i
-    return lis
+    res_text = len(t.replace(" ", ""))
+    return res_text
 
 print(count_len(text))
