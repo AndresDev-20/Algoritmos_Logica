@@ -228,3 +228,14 @@ def count_len(t):
     return res_text
 
 print(count_len(text))
+
+
+# 13)---------------------------------------------------------------------------------------
+# Contar cuántos números son mayores que un valor
+# Dado un arreglo de números y un número x, devuelve cuántos elementos del
+# arreglo son mayores que x.
+# Ejemplo:
+# Lista: [2, 5, 10, 3, 8]
+# x = 4
+# Resultado → 3 (5, 10, 8)
+
