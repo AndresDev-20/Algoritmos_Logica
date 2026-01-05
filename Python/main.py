@@ -240,5 +240,11 @@ print(count_len(text))
 # Resultado → 3 (5, 10, 8)
 lis = [2, 5, 10, 3, 8]
 num = 4
-def num_elderly():
-    
+def num_elderly(l, n):
+    res = list()
+    for i in l:
+        if i > num:
+            res.append(i)
+    return res
+
+print(num_elderly(lis, num))
