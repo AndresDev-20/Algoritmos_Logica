@@ -238,4 +238,7 @@ print(count_len(text))
 # Lista: [2, 5, 10, 3, 8]
 # x = 4
 # Resultado → 3 (5, 10, 8)
-
+lis = [2, 5, 10, 3, 8]
+num = 4
+def num_elderly():
+    
