@@ -274,3 +274,12 @@ function countWord(c){
 }
 
 console.log(countWord(cadena));
+
+
+// 15)---------------------------------------------------------------------------------------
+// Verificar si todos los números son positivos
+// Dado un arreglo, devuelve true si todos los números son mayores que 0
+// Si hay al menos uno negativo o cero, devuelve false.
+// Ejemplo:
+// [1, 3, 5] → true
+// [1, -2, 5] → false.
