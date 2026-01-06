@@ -261,8 +261,16 @@ console.log("res" + numMinur(n));
 
 
 
+// 15)---------------------------------------------------------------------------------------
 // Contar palabras en una frase
 // Dado un texto, devuelve cuántas palabras tiene.
 // Ejemplo:
 // "Java y Python son geniales" → 5.
 // (Regla: palabras separadas por espacios).
+const cadena = "Java y Python son geniales";
+function countWord(c){
+    let res = c.split(" ").length
+    return res;
+}
+
+console.log(countWord(cadena));
