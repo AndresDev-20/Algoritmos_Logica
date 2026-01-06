@@ -297,3 +297,23 @@ function isPositiveOrNegative(arr){
 console.log(isPositiveOrNegative(arr1));
 console.log(isPositiveOrNegative(arr2));
 
+
+
+// Repetir una palabra n veces
+// Dada una palabra y un número number, devuelve la palabra repetida n veces.
+// Ejemplo:
+// Palabra: "Hola"
+// number = 3
+// Resultado → "HolaHolaHola".
+let number = 3;
+let word = "Hola"
+function wordRepeat(n, w){
+    let res = "";
+    for(let i = 0; i < n; i++) {
+        res = res + w;
+    }
+    return res
+}
+console.log(wordRepeat(number, word));
+
+
