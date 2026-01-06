@@ -238,3 +238,10 @@ function numElderly(ns, n){
     return res;
 }
 console.log(numElderly(nums, num));
+
+
+// 14)---------------------------------------------------------------------------------------
+// Encontrar el número menor
+// Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
+// Ejemplo:
+// [7, 2, 9, 1, 5] → 1.
