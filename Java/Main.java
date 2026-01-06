@@ -153,6 +153,13 @@ public class Main {
         int[] nm = {7, 2, 9, 1, 5};
         System.out.println(numMinius(nm));
 
+        // 15)---------------------------------------------------------------------------------------
+// Contar palabras en una frase
+// Dado un texto, devuelve cuántas palabras tiene.
+// Ejemplo:
+// "Java y Python son geniales" → 5.
+// (Regla: palabras separadas por espacios).
+
     }
 
     // Funciones
