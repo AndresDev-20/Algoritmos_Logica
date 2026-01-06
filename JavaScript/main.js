@@ -245,3 +245,7 @@ console.log(numElderly(nums, num));
 // Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
 // Ejemplo:
 // [7, 2, 9, 1, 5] → 1.
+const n = [7, 2, 9, 1, 5];
+function numMinur(){
+
+}
