@@ -246,6 +246,13 @@ console.log(numElderly(nums, num));
 // Ejemplo:
 // [7, 2, 9, 1, 5] → 1.
 const n = [7, 2, 9, 1, 5];
-function numMinur(){
-
+function numMinur(arr){
+    let res = list();
+    for(let i = 0; i < arr.length; i++ ) {
+        if(res < arr[i]){
+            res = arr[i]
+        }
+    }
 }
+
+console.log(numMinur(n));
