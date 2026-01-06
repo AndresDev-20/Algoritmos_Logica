@@ -283,3 +283,17 @@ console.log(countWord(cadena));
 // Ejemplo:
 // [1, 3, 5] → true
 // [1, -2, 5] → false.
+const arr1 = [1, 3, 5];
+const arr2 = [1, -2, 5];
+function isPositiveOrNegative(arr){
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] < 0){
+            return false
+        }
+    }
+    return true
+}
+
+console.log(isPositiveOrNegative(arr1));
+console.log(isPositiveOrNegative(arr2));
+
