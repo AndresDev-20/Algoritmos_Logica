@@ -243,7 +243,7 @@ num = 4
 def num_elderly(l, n):
     res = list()
     for i in l:
-        if i > num:
+        if i > n:
             res.append(i)
     return res
 
