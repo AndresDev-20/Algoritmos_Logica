@@ -247,12 +247,14 @@ console.log(numElderly(nums, num));
 // [7, 2, 9, 1, 5] → 1.
 const n = [7, 2, 9, 1, 5];
 function numMinur(arr){
-    let res = list();
+    let res = list[0];
     for(let i = 0; i < arr.length; i++ ) {
-        if(res < arr[i]){
+        if(res > arr[i]){
             res = arr[i]
         }
     }
+
+    return res;
 }
 
-console.log(numMinur(n));
+console.log("res" + numMinur(n));
