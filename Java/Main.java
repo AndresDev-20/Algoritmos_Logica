@@ -157,8 +157,8 @@ public class Main {
         // Contar palabras en una frase
         // Dado un texto, devuelve cuántas palabras tiene.
         // Ejemplo:
-// "Java y Python son geniales" → 5.
-// (Regla: palabras separadas por espacios).
+        // "Java y Python son geniales" → 5.
+        // (Regla: palabras separadas por espacios).
 
     }
 
