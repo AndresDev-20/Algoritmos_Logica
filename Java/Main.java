@@ -149,7 +149,8 @@ public class Main {
         // Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
         // Ejemplo:
         // [7, 2, 9, 1, 5] → 1.
-        
+        int[] nm = {7, 2, 9, 1, 5};
+        System.out.println(numMinius(nm));
 
     }
 
