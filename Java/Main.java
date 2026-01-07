@@ -323,6 +323,7 @@ public class Main {
    
    // 14)---------------------------------------------------------------------------------------------
    public static int numMinius(int[] nums) {
+    int[] res = {0};
     return 0;
    }
 }
