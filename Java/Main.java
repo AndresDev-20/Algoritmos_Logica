@@ -149,7 +149,7 @@ public class Main {
         // Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
         // Ejemplo:
         // [7, 2, 9, 1, 5] → 1.
-
+        
 
     }
 
@@ -325,7 +325,9 @@ public class Main {
    public static int numMinius(int[] nums) {
     int[] res = {0};
     for (int i = 0; i < nums.length; i++) {
-
+        if (res[0] < nums[i]){
+            res[0] = nums[i];
+        }
     }
     return 0;
    }
