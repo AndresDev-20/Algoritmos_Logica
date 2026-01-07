@@ -324,6 +324,9 @@ public class Main {
    // 14)---------------------------------------------------------------------------------------------
    public static int numMinius(int[] nums) {
     int[] res = {0};
+    for (int i = 0; i < nums.length; i++) {
+
+    }
     return 0;
    }
 }
