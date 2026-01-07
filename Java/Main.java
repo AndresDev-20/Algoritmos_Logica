@@ -1,6 +1,7 @@
 package Java;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -323,14 +324,14 @@ public class Main {
 
    
    // 14)---------------------------------------------------------------------------------------------
-   public static int numMinius(int[] nums) {
+   public static String numMinius(int[] nums) {
     int[] res = {0};
     for (int i = 0; i < nums.length; i++) {
-        if (res[0] < nums[i]){
+        if (res[0] >= nums[i]){
             res[0] = nums[i];
         }
     }
-    return 0;
+    return Arrays.toString(res);
    }
 }
 
