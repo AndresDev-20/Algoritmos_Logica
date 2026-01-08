@@ -149,7 +149,7 @@ console.log(countNegative([-3, 5, -1, 0, 10, -7]));
 function sumImpar(arr){
     let res = 0;
     for(let i = 0; i < arr.length; i++){
-        if(arr[i] % 2 === 1){
+        if(arr[i] % 2 !== 1){
             res = res + arr[i];
         }
     }
@@ -247,7 +247,7 @@ console.log(numElderly(nums, num));
 // [7, 2, 9, 1, 5] → 1.
 const n = [7, 2, 9, 1, 5];
 function numMinur(arr){
-    let res = list[0];
+    let res = arr[0];
     for(let i = 0; i < arr.length; i++ ) {
         if(res > arr[i]){
             res = arr[i]
@@ -276,7 +276,7 @@ function countWord(c){
 console.log(countWord(cadena));
 
 
-// 15)---------------------------------------------------------------------------------------
+// 16)---------------------------------------------------------------------------------------
 // Verificar si todos los números son positivos
 // Dado un arreglo, devuelve true si todos los números son mayores que 0
 // Si hay al menos uno negativo o cero, devuelve false.
@@ -298,7 +298,7 @@ console.log(isPositiveOrNegative(arr1));
 console.log(isPositiveOrNegative(arr2));
 
 
-
+// 17)---------------------------------------------------------------------------------------
 // Repetir una palabra n veces
 // Dada una palabra y un número number, devuelve la palabra repetida n veces.
 // Ejemplo:
