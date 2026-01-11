@@ -144,6 +144,13 @@ public class Main {
         int x  = 6;
         System.out.println(numElderly(ns, x));
 
+        // 14)---------------------------------------------------------------------------------------
+        // Encontrar el número menor
+        // Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
+        // Ejemplo:
+        // [7, 2, 9, 1, 5] → 1.
+
+
     }
 
     // Funciones
@@ -313,6 +320,11 @@ public class Main {
     return res;
    }
 
+   
+   // 14)---------------------------------------------------------------------------------------------
+   public static int numMinius(int[] nums) {
+    return 0;
+   }
 }
 
 
