@@ -160,7 +160,7 @@ public class Main {
         // "Java y Python son geniales" → 5.
         // (Regla: palabras separadas por espacios).
         String tx = "Java y Python son geniales";
-        countWords(tx);
+        System.out.println(countWords(tx));
 
     }
 
@@ -345,8 +345,8 @@ public class Main {
 
    // 15)---------------------------------------------------------------------------------------------
    public static int countWords(String text){
-    ArrayList<String> words = new ArrayList<>(Arrays.asList(text));
-    return words.size();
+    String[] words = text.split(" ");
+    return words.length;
    }
 }
 
