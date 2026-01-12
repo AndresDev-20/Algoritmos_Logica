@@ -345,6 +345,7 @@ public class Main {
 
    // 15)---------------------------------------------------------------------------------------------
    public static int countWords(String text){
+    ArrayList<String> words = new ArrayList<>();
     return 0;
    }
 }
