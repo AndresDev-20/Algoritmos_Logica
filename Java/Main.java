@@ -159,6 +159,8 @@ public class Main {
         // Ejemplo:
         // "Java y Python son geniales" → 5.
         // (Regla: palabras separadas por espacios).
+        String tx = "Java y Python son geniales";
+        countWords(tx);
 
     }
 
@@ -342,7 +344,7 @@ public class Main {
    }
 
    // 15)---------------------------------------------------------------------------------------------
-   public static int countWords(){
+   public static int countWords(String text){
     return 0;
    }
 }
