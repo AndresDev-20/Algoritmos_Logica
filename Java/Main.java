@@ -362,7 +362,7 @@ public class Main {
 
 
    // 16)---------------------------------------------------------------------------------------------
-   public static boolean isPositiveOrNegative() {
+   public static boolean isPositiveOrNegative(int[] nums) {
     return true;
    }
 }
