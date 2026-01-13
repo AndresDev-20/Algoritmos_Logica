@@ -172,7 +172,8 @@ public class Main {
         // Ejemplo:
         // [1, 3, 5] → true
         // [1, -2, 5] → false.
-
+        int[] arn = {1, 3, 5};
+        System.out.println(isPositiveOrNegative(arn));
     }
 
     // Funciones
