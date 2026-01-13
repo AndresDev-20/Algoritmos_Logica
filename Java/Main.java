@@ -172,7 +172,7 @@ public class Main {
         // Ejemplo:
         // [1, 3, 5] → true
         // [1, -2, 5] → false.
-        int[] arn = {1, 3, 5};
+        int[] arn = {1, -3, 5};
         System.out.println(isPositiveOrNegative(arn));
     }
 
@@ -364,6 +364,11 @@ public class Main {
 
    // 16)---------------------------------------------------------------------------------------------
    public static boolean isPositiveOrNegative(int[] nums) {
+    for (int n : nums) {
+        if (n < 0) {
+            return false;
+        }
+    }
     return true;
    }
 }
