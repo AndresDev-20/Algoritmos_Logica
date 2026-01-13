@@ -145,6 +145,7 @@ public class Main {
         int x  = 6;
         System.out.println(numElderly(ns, x));
 
+
         // 14)---------------------------------------------------------------------------------------
         // Encontrar el número menor
         // Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
@@ -152,6 +153,7 @@ public class Main {
         // [7, 2, 9, 1, 5] → 1.
         int[] nm = {7, 2, 9, 1, 5};
         System.out.println(numMinius(nm));
+
 
         // 15)---------------------------------------------------------------------------------------
         // Contar palabras en una frase
@@ -161,6 +163,15 @@ public class Main {
         // (Regla: palabras separadas por espacios).
         String tx = "Java y Python son geniales";
         System.out.println(countWords(tx));
+
+
+        // 16)---------------------------------------------------------------------------------------
+        // Verificar si todos los números son positivos
+        // Dado un arreglo, devuelve true si todos los números son mayores que 0
+        // Si hay al menos uno negativo o cero, devuelve false.
+        // Ejemplo:
+        // [1, 3, 5] → true
+        // [1, -2, 5] → false.
 
     }
 
