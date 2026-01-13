@@ -363,7 +363,7 @@ public class Main {
 
    // 16)---------------------------------------------------------------------------------------------
    public static boolean isPositiveOrNegative() {
-    
+    return true;
    }
 }
 
