@@ -184,7 +184,7 @@ public class Main {
         // number = 3
         // Resultado → "HolaHolaHola".
         var words = "Hello";
-        var n = 3;
+        var nr = 3;
         System.out.println(repeactWord());
 
     }
