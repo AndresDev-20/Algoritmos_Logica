@@ -174,6 +174,16 @@ public class Main {
         // [1, -2, 5] → false.
         int[] arn = {1, -3, 5};
         System.out.println(isPositiveOrNegative(arn));
+
+
+        // 17)---------------------------------------------------------------------------------------
+        // Repetir una palabra n veces
+        // Dada una palabra y un número number, devuelve la palabra repetida n veces.
+        // Ejemplo:
+        // Palabra: "Hola"
+        // number = 3
+        // Resultado → "HolaHolaHola".
+        
     }
 
     // Funciones
