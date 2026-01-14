@@ -388,10 +388,11 @@ public class Main {
 
   // 16)---------------------------------------------------------------------------------------------
   public static String repeactWord(String w, int n) {
+    String res = "";
     for (int i = 0; i < n; i++){
-        
+        res += w;
     }
-    return "";
+    return res;
   }
 }
 
