@@ -387,7 +387,7 @@ public class Main {
 
 
   // 16)---------------------------------------------------------------------------------------------
-  public static String repeactWord() {
+  public static String repeactWord(String w, int n) {
     return "";
   }
 }
