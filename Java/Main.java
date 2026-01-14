@@ -183,7 +183,7 @@ public class Main {
         // Palabra: "Hola"
         // number = 3
         // Resultado → "HolaHolaHola".
-        
+
     }
 
     // Funciones
@@ -381,6 +381,10 @@ public class Main {
     }
     return true;
    }
+
+
+  // 16)---------------------------------------------------------------------------------------------
+  
 }
 
 
