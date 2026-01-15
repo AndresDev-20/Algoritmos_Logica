@@ -255,7 +255,11 @@ print(num_elderly(lis, num))
 # Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
 # Ejemplo:
 # [7, 2, 9, 1, 5] → 1.
-nums = [7, 2, 9, 1, 5]
+nums = [7, 2, 9, 8, 5]
 def num_minur(ns):
-    return 
+    res = 1;
+    for n in ns:
+        if res < n:
+            res = n
+    return res
 print(num_minur(nums))
