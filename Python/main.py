@@ -248,3 +248,14 @@ def num_elderly(l, n):
     return res
 
 print(num_elderly(lis, num))
+
+
+# 14)---------------------------------------------------------------------------------------
+# Encontrar el número menor
+# Dado un arreglo de números, encuentra el número más pequeño sin usar funciones prehechas.
+# Ejemplo:
+# [7, 2, 9, 1, 5] → 1.
+nums = [7, 2, 9, 1, 5]
+def num_minur(ns):
+    return 
+print(num_minur(nums))
