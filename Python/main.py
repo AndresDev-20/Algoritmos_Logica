@@ -288,5 +288,8 @@ print(count_word(text))
 # [1, 3, 5] → true
 # [1, -2, 5] → false.
 num = [1, 3, 5]
-def isPositiveOrNegative():
-    
+def is_positive_or_negative(ns):
+    for
+    return True
+
+print(is_positive_or_negative(num))
