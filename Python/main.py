@@ -289,7 +289,8 @@ print(count_word(text))
 # [1, -2, 5] → false.
 num = [1, 3, 5]
 def is_positive_or_negative(ns):
-    for
+    for n in ns:
+        if 
     return True
 
 print(is_positive_or_negative(num))
