@@ -287,3 +287,6 @@ print(count_word(text))
 # Ejemplo:
 # [1, 3, 5] → true
 # [1, -2, 5] → false.
+num = [1, 3, 5]
+def isPositiveOrNegative():
+    
