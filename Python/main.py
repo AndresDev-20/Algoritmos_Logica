@@ -271,3 +271,7 @@ print(num_minur(nums))
 # Ejemplo:
 # "Java y Python son geniales" → 5.
 # (Regla: palabras separadas por espacios).
+text = "Java y Python son geniales"
+def count_word(t):
+    return 0
+print(count_word(text))
