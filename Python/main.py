@@ -257,9 +257,9 @@ print(num_elderly(lis, num))
 # [7, 2, 9, 1, 5] → 1.
 nums = [7, 2, 9, 8, 5]
 def num_minur(ns):
-    res = 1;
+    res = ns[0];
     for n in ns:
-        if res < n:
+        if n < res:
             res = n
     return res
 print(num_minur(nums))
