@@ -263,3 +263,11 @@ def num_minur(ns):
             res = n
     return res
 print(num_minur(nums))
+
+
+# 15)---------------------------------------------------------------------------------------
+# Contar palabras en una frase
+# Dado un texto, devuelve cuántas palabras tiene.
+# Ejemplo:
+# "Java y Python son geniales" → 5.
+# (Regla: palabras separadas por espacios).
