@@ -262,6 +262,7 @@ def num_minur(ns):
         if n < res:
             res = n
     return res
+
 print(num_minur(nums))
 
 
@@ -273,5 +274,7 @@ print(num_minur(nums))
 # (Regla: palabras separadas por espacios).
 text = "Java y Python son geniales"
 def count_word(t):
+    
     return 0
+
 print(count_word(text))
