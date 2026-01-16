@@ -274,7 +274,7 @@ print(num_minur(nums))
 # (Regla: palabras separadas por espacios).
 text = "Java y Python son geniales"
 def count_word(t):
-    
-    return 0
+    res = t.split()
+    return len(res)
 
 print(count_word(text))
