@@ -308,7 +308,10 @@ word = "Hola"
 num = 3
 def word_repeat(w, n):
     res = ""
-    for 
+    i = 0
+    while i < n:
+        res += w
+        i += 1
     return res
 
 print(word_repeat(word, num))
