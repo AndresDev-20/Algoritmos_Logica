@@ -189,7 +189,7 @@ public class Main {
 
     }
 
-    // Funciones
+   // Funciones
    // 1)----------------------------------------------------------------------------------------------
    public static int searchPars(ArrayList<Integer> numList){
     int res = 0;
