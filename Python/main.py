@@ -295,3 +295,12 @@ def is_positive_or_negative(ns):
     return True
 
 print(is_positive_or_negative(num))
+
+
+# 17)---------------------------------------------------------------------------------------
+# Repetir una palabra n veces
+# Dada una palabra y un número number, devuelve la palabra repetida n veces.
+# Ejemplo:
+# Palabra: "Hola"
+# number = 3
+# Resultado → "HolaHolaHola".
