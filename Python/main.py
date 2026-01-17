@@ -305,3 +305,4 @@ print(is_positive_or_negative(num))
 # number = 3
 # Resultado → "HolaHolaHola".
 word = "Hola"
+num = 3
