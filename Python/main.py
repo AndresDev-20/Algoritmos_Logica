@@ -309,3 +309,5 @@ num = 3
 def word_repeat():
     res = ""
     return res
+
+print(word_repeat(word, num))
