@@ -287,10 +287,11 @@ print(count_word(text))
 # Ejemplo:
 # [1, 3, 5] → true
 # [1, -2, 5] → false.
-num = [1, 3, 5]
+num = [1, -3, 5]
 def is_positive_or_negative(ns):
     for n in ns:
-        if 
+        if n < 0:
+            return False
     return True
 
 print(is_positive_or_negative(num))
