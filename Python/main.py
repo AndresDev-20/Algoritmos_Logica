@@ -304,3 +304,4 @@ print(is_positive_or_negative(num))
 # Palabra: "Hola"
 # number = 3
 # Resultado → "HolaHolaHola".
+word = "Hola"
