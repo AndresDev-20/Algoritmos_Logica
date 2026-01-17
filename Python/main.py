@@ -306,8 +306,9 @@ print(is_positive_or_negative(num))
 # Resultado → "HolaHolaHola".
 word = "Hola"
 num = 3
-def word_repeat():
+def word_repeat(w, n):
     res = ""
+    for 
     return res
 
 print(word_repeat(word, num))
