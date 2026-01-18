@@ -315,5 +315,3 @@ function wordRepeat(n, w){
     return res
 }
 console.log(wordRepeat(number, word));
-
-
