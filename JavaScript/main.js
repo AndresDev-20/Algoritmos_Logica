@@ -335,10 +335,14 @@ console.log(wordRepeat(number, word));
 
 
 function reverseText(text) {
-
-    // Tu código aquí
-
+    let t = ""; 
+    for(let i = text.length - 1; i >= 0; i--){
+        t += text[i]
+    }
+    return t;
 }
+
+console.log(reverseText("Hola Mundo"))
 
 
 
